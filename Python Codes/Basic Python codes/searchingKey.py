@@ -1,5 +1,6 @@
 num3 = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
-key = int(input("Enter the element to find: "))  # Convert input to integer
+key = int(input("Enter the element to find: "))  
+# Convert input to integer
 
 i = 0
 while i < len(num3):
