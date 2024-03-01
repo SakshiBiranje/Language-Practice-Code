@@ -1,5 +1,4 @@
 import random
-
 def scramble_word(word):
 
     scrambled = ''.join(random.sample(word, len(word)))
