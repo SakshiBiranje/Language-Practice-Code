@@ -12,7 +12,7 @@ while i<6:
         break
     i+=1
 
-#whilw - else
+#while- else
 while i < 6:
   i += 1
   print(i)
