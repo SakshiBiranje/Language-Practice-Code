@@ -16,7 +16,6 @@ arr3 = np.array([1, 2, 3, 4], dtype='i4')
 print(arr3)
 print(arr3.dtype)
 
-
 #Change data type from float to integer by using 'i' as parameter value
 
 arr = np.array([1.1, 2.1, 3.1])
