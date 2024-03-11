@@ -9,7 +9,6 @@ df.plot()
 
 plt.show()
 
-
 #Scatter plot
 
 import pandas as pd
