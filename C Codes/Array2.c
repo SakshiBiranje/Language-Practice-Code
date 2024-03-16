@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
   // Declare an array of four integers:
   int myNumbers[4];
 
