@@ -3,7 +3,6 @@
 int main() {
   // An array storing different ages
   int ages[] = {20, 22, 18, 35, 48, 26, 87, 70};
- 
   float avg, sum = 0;
   int i;
   
@@ -14,3 +13,4 @@ int main() {
   for (i = 0; i < length; i++) {
     sum += ages[i];
   }
+}
