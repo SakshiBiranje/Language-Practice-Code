@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void multiplyMatrices(int firstMatrix[10][10], int secondMatrix[10][10], int result[10][10], int row1, int col1, int col2) {
     for (int i = 0; i < row1; ++i) {
         for (int j = 0; j < col2; ++j) {
