@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 void reverseString(char* str) {
     int n = strlen(str);
     for (int i = 0; i < n / 2; i++) {
