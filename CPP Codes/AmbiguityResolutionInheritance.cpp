@@ -1,4 +1,5 @@
 #include<stdio.h>  
+
 int partition(int a[], int low, int high)   
 {  
     int pivot = a[high];     int i = (low - 1);  
