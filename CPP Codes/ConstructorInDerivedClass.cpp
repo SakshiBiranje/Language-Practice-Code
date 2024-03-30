@@ -2,7 +2,6 @@
 #include<iomanip>
 using namespace std;
 
-
 class base1
 {
     int data1;
