@@ -1,5 +1,6 @@
 #include<iostream>
 #include<iomanip>
+
 using namespace std;
 float moneyRecived(int currentMoney ,float intperc=1.04)//this 1.04 is default arg
 {
