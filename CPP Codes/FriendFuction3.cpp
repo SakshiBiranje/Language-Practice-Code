@@ -1,6 +1,7 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
+
 class y;
 class x
 {
