@@ -18,6 +18,7 @@ class Test{
         cout<<"Value of b : "<<b<<endl;
     }
 };
+
 int main()
 {
     Test object(10,20);
