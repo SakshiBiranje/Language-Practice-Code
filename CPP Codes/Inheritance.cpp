@@ -1,7 +1,8 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
-class base       //base class
+class base       
+//base class
 {
     private :
     int id;
