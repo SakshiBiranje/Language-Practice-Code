@@ -11,7 +11,6 @@ void LinearSearch(int  array[],int size ,int key)
             z=1;
         }
     }
-    
         if (z==0)
         {
             cout<<"Element not found"<<endl;
