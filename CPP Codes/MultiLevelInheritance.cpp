@@ -15,7 +15,6 @@ void student :: displayrollno(void)
 {
     cout<<"Roll no.: "<<rollno<<endl;
 }
-
 class exam : public student 
 {
     protected :
