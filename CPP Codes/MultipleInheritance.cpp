@@ -11,7 +11,6 @@ class base1
         base1int=a;
     }
 };
-
 class base2 
 {
     protected :
