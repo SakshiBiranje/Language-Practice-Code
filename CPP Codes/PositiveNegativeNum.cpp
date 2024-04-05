@@ -5,10 +5,12 @@ int main()
     int num;
     cout<<"Enter a number : ";
     cin>>num;
-    if(num>0){
+    if(num>0)
+    {
         cout<<"\nPositive Number";
     }
-    else if(num >0){
+    else if(num >0)
+    {
         cout<<"\nNegative Number";
     }
     else
