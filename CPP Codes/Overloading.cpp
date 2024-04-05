@@ -9,6 +9,7 @@ int sum(int a , int b, int c)
 {
     return a+b+c;
 }
+
 int main()
 {
     int x=1,y=2,z=3;
