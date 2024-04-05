@@ -11,6 +11,7 @@ class Binary
     void one(void);
     void display(void);
 };
+
 void Binary::write(void)
 {
     cout<<"Enter Binary no.:";
