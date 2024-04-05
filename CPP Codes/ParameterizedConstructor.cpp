@@ -11,11 +11,13 @@ class complex
         cout<<a<<"+"<<b<<"i"<<endl;
     }
 };
+
 complex::complex(int x,int y) 
 {
     a=x;
     b=y;
 }
+
 int main()
 {
     //implicit call
