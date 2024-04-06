@@ -8,7 +8,6 @@ class base{
     private :
     int b;  
 };
-
 /*
 protected can be inherited
 
