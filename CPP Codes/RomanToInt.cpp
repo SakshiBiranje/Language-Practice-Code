@@ -26,6 +26,7 @@ public:
         for (char c : s) 
         {
             int value = romanMap[c];
+            
             if (value > preValue) 
             {
                 total += value - 2 * preValue;
