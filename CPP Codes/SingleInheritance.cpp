@@ -3,6 +3,7 @@
 using namespace std;
 class base{
     int num1;
+    
     public :
     int num2;
     int sum;
