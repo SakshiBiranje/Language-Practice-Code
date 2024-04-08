@@ -18,6 +18,7 @@ class Student
         cout<<"Roll No.:"<<roll<<endl<<"The count : "<<count<<"."<<endl;
     }
 };
+
 int Student :: count=100;
 int main()
 {
