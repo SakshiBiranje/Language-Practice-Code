@@ -2,6 +2,7 @@
 #include<iostream>    
 #include<iomanip>
 using namespace std;
+
 int sol(int x,int y)
 {
     static int z=0;
