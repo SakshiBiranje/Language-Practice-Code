@@ -7,6 +7,7 @@ typedef struct food
     char name;
     float price;
 }ep;
+
 int main()
 {
     ep Lunch;
