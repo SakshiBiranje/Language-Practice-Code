@@ -9,6 +9,7 @@ public:
     bool isValid(const string& s) 
     {
         string stk;
+        
         for (char c : s) 
         {
             if (c == '(' || c == '{' || c == '[') 
