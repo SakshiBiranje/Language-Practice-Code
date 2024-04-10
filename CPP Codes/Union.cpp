@@ -8,6 +8,7 @@ union Student
     char div;
     float marks;
 };
+
 int main()
 {
     union Student s1;
