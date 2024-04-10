@@ -11,7 +11,8 @@ int calculate_weight(const char *str) {
     return total_weight;
 }
 
-int main() {
+int main() 
+{
     char input_string[100];
     printf("Enter a lowercase string: ");
     scanf("%s", input_string);
