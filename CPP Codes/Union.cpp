@@ -8,9 +8,7 @@ union Student
     char div;
     float marks;
 };
-
-int main()
-{
+int main(){
     union Student s1;
     s1.no=21;
     s1.div='a';
