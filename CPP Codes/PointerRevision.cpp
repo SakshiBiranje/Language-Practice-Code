@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 int main()
 {
     int a = 10;
@@ -7,7 +8,7 @@ int main()
     cout<<"Value of a : "<<*ptr<<endl;
     cout<<"Value of a : "<<a<<endl;
     //"new" -->> operator
-    
+
     int *ptr1 = new int;
     int *ptr2 = new int(6);
     int *array = new int[3]; 
