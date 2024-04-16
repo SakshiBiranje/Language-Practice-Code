@@ -24,6 +24,7 @@ class Employee
         cout<<"Current count : "<<count<<endl;
     } 
 };
+
 int Employee :: count;
 int main()
 {
