@@ -15,7 +15,6 @@ class point
         cout<<"x-Axis : "<<a<<endl<<"y-Axis : "<<b<<endl;
      }
 };
-
 int main()
 {
     point c1 = point(5,8);
