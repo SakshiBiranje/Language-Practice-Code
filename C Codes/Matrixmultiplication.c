@@ -11,7 +11,8 @@ void multiplyMatrices(int firstMatrix[10][10], int secondMatrix[10][10], int res
     }
 }
 
-int main() {
+int main() 
+{
     int firstMatrix[10][10], secondMatrix[10][10], result[10][10], row1, col1, row2, col2;
 
     printf("Enter rows and columns for the first matrix: ");
