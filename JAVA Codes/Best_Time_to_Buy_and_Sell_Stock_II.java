@@ -9,7 +9,8 @@ public class Best_Time_to_Buy_and_Sell_Stock_II
         return ans;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
         Best_Time_to_Buy_and_Sell_Stock_II calculator = new  Best_Time_to_Buy_and_Sell_Stock_II();
         System.out.print("Enter number of days: ");
