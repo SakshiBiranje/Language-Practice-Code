@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class bank{
+public class bank {
         public static class Account {
         public static double monthlyinterst(double IR, double P) {
             double Amount = P;
