@@ -1,4 +1,5 @@
-public class Backtracking {
+public class Backtracking 
+{
     public static void printPermutation(String str,String permutation,int idx) {
         if(str.length() == 0){
             System.out.println(permutation);
