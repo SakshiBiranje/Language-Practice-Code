@@ -1,5 +1,6 @@
 import java.util.Scanner;
-class Best_Time_to_Sell {
+class Best_Time_to_Sell 
+{
 public int maxprofit(int[] prices) {
     int ans=0, min = prices[0];
     for(int value : prices )
