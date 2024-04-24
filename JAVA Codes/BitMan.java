@@ -1,7 +1,6 @@
 
 //This code tell us what is the bit present at a particular position of number in binary system
 import java.util.*;
-
 public class BitMan {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
