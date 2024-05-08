@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() 
 {
   // An array storing different ages
