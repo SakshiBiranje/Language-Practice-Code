@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int calculate_weight(const char *str) {
     int total_weight = 0;
 
