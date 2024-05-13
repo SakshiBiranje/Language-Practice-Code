@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 // Create a function
 void calculateSum() {
   int x = 5;
