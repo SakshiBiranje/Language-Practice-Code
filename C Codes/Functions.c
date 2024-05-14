@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 // Create a function
-void calculateSum() {
+void calculateSum() 
+{
   int x = 5;
   int y = 10;
   int sum = x + y;
