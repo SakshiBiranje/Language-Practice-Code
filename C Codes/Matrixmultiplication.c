@@ -4,13 +4,13 @@ void multiplyMatrices(int firstMatrix[10][10], int secondMatrix[10][10], int res
     for (int i = 0; i < row1; ++i) {
         for (int j = 0; j < col2; ++j) {
             result[i][j] = 0;
-            
             for (int k = 0; k < col1; ++k) {
                 result[i][j] += firstMatrix[i][k] * secondMatrix[k][j];
             }
         }
     }
 }
+
 int main() 
 {
     int firstMatrix[10][10], secondMatrix[10][10], result[10][10], row1, col1, row2, col2;
