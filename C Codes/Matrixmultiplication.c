@@ -34,13 +34,14 @@ int main()
     }
 
     printf("Enter elements of the second matrix:\n");
-    for (int i = 0; i < row2; ++j) {
+    for (int i = 0; i < row2; ++i) {
         for (int j = 0; j < col2; ++j) {
             scanf("%d", &secondMatrix[i][j]);
         }
     }
 
     multiplyMatrices(firstMatrix, secondMatrix, result, row1, col1, col2);
+
 
     printf("\nResultant Matrix:\n");
     for (int i = 0; i < row1; ++i) {
