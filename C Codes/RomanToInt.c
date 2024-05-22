@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int romanToInt(char *s) {
+int romanToInt(char *s)
+{
     int nums[26] = {0};
     nums['I' - 'A'] = 1;
     nums['V' - 'A'] = 5;
