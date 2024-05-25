@@ -9,6 +9,5 @@ int main()
   for (i = 0; i < length; i++) {
     printf("%d\n", myNumbers[i]);
   }
-  
   return 0;
 }
