@@ -25,6 +25,7 @@ void quickSort(int a[], int low, int high)
         int pi = partition(a, low, high);         quickSort(a, low, pi - 1);         quickSort(a, pi + 1, high);  
     }  
 }  
+
 int main()   
 {     int n;     int i;  
     printf("Enter the number of elements");  
