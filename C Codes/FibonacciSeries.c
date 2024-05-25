@@ -15,7 +15,6 @@ void fibboncci(int n)
             printf("%d\n",a);
             continue;
         }
-        
         if(i==1)
         {
             printf("%d\n",b);
