@@ -2,6 +2,7 @@
 #include<iomanip>
 
 using namespace std;
+
 class point
 {
     int a,b;
