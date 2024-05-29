@@ -1,7 +1,9 @@
 #include<iostream>
 #include<iomanip>
 #include<string>
+
 using namespace std;
+
 class Binary
 {
     string s;
@@ -52,6 +54,7 @@ void Binary :: display(void)
         cout<<s.at(i);
     }
 }
+
 int main()
 {
     Binary B;
