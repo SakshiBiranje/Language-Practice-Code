@@ -2,6 +2,7 @@
 #include<iomanip>
 
 using namespace std;
+
 class base1
 {
     protected :
@@ -30,6 +31,7 @@ class derived : public base1 ,public base2{
         cout<<"Sum : "<<base1int + base2int;
     }
 };
+
 int main()
 {
     derived obj ;
