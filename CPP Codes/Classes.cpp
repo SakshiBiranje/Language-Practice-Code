@@ -25,6 +25,7 @@ void Employee::setData(int x,int y,int z)
     b=y;
     c=z;
 }
+
 int main()
 {
     Employee sudarshan;
