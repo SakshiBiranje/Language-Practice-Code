@@ -2,6 +2,7 @@
 #include<iomanip>
 
 using namespace std;
+
 class complex{
     int a,b;
     public :
@@ -17,6 +18,7 @@ complex::complex(void)
     a=5;
     b=6;
 }
+
 int main()
 {
     complex e; //constructor is directly invocked when object is created 
