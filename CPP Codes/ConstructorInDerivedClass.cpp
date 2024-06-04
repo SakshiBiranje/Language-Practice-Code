@@ -33,7 +33,6 @@ class base2
     }
 };
 
-
 class derived : public base1,public base2      //this the line where we can change the order of call a constructor
 {
     int derived1,derived2;
