@@ -2,6 +2,7 @@
 #include<iomanip>
 
 using namespace std;
+
 class complex{
     int a;
     int b;
