@@ -49,6 +49,7 @@ class derived : public base1,public base2      //this the line where we can chan
         cout<<"Derived 2 : "<<derived2<<endl;
     }
 };
+
 int main()
 {
     derived obj(5,4,3,2);
