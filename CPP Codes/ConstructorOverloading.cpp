@@ -3,7 +3,8 @@
 
 using namespace std;
 
-class complex{
+class complex
+{
     int a;
     int b;
 
