@@ -23,6 +23,7 @@ class copyC{
         cout<<a<<endl;
     }
 };
+
 int main()
 {
     copyC p,q,r(4),z2;
