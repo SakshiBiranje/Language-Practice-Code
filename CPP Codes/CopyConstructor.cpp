@@ -2,6 +2,7 @@
 #include<iomanip>
 
 using namespace std;
+
 class copyC{
     int a=10;
     public :
