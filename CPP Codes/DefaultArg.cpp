@@ -7,6 +7,7 @@ float moneyRecived(int currentMoney ,float intperc=1.04)//this 1.04 is default a
 {
     return currentMoney*intperc;
 }
+
 int main()
 {
     int money =100;
