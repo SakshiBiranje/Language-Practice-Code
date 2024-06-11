@@ -2,6 +2,7 @@
 #include<iostream>
 
 using namespace std;
+
 class simple{
     int data1;
     int data2;
