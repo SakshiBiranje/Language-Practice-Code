@@ -22,6 +22,7 @@ void simple::printdata(void)
     cout<<data2<<endl;
     cout<<data3<<endl;
 }
+
 int main()
 {
     simple s1(19);
