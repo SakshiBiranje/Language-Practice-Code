@@ -13,6 +13,7 @@ class BankDeposit{
     BankDeposit(int p,int y,int r);
     void show(void);
 };
+
 BankDeposit::BankDeposit(int p,int y,float r)
 {
     principal=p;
@@ -39,6 +40,7 @@ void BankDeposit:: show()
 {
     cout<<endl<<"Your Principal amount : "<<principal<<endl<<"Return value : "<<returnValue<<endl;
 }
+
 int main()
 {
     BankDeposit x,y,z;
