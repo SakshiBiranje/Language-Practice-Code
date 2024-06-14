@@ -1,6 +1,7 @@
 #include<iomanip>
 #include<iostream>
 using namespace std;
+
 int main()
 {
     enum Meal {Breakfast,Lunch,Dinner};
