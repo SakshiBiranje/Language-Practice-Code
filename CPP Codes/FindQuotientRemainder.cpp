@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 int main(){
     int num1, num2, quotient=0,remainder=0;
     cout<<("Enter two numbers : ");
