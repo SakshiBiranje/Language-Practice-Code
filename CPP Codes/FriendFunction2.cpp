@@ -13,6 +13,7 @@ class calculator
     int sumRealComplex(Complex ,Complex );
     int sumImgComplex(Complex ,Complex );
 };
+
 class Complex
 {
     int a,b;
