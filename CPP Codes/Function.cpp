@@ -10,6 +10,7 @@ int sum(int a,int b)
 }
 int difference(int a,int b);
 void p(void );
+
 int main()
 {
     int num1,num2;
