@@ -26,6 +26,7 @@ int difference(int a , int b)
     c=a-b;
     cout<<"Your difference : "<<c;
 }
+
 void p(void)
 {
     cout<<endl<<"Hello World";
