@@ -8,6 +8,7 @@ inline int product(int a,int b)
 {
     return a*b;
 }
+
 int main()
 {
     int x, y;
