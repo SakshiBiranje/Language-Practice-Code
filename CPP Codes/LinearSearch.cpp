@@ -18,6 +18,7 @@ void LinearSearch(int  array[],int size ,int key)
         }
     
 }
+
 int main()
 {
     int size;
