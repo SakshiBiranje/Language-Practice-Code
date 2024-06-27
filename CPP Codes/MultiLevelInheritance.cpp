@@ -45,6 +45,7 @@ class result:public exam
         cout<<"Your Percentage : "<<(maths+physic)/2<<endl;
     }
 };
+
 int main()
 {
     result s1;
