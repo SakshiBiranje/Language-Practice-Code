@@ -11,7 +11,6 @@ public class Recursion7 {
         return xPown;
     }
     //2^5=32 x^n stack height=n
-
     public static void main(String[] args) {
         int x=2,n=5;
         int ans = calPower(x,n);
