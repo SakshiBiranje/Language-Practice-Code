@@ -17,6 +17,7 @@ void Binary::write(void)
     cout<<"Enter Binary no.:";
     cin>>s;
 }
+
 void Binary::check(void)
 {
     for(int i = 0;i<s.length();i++)
