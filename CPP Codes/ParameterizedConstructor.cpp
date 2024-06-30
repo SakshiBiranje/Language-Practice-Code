@@ -1,6 +1,8 @@
 #include<iostream>
 #include<iomanip>
+
 using namespace std;
+
 class complex
 {
     int a,b;
