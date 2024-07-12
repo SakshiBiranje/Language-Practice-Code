@@ -5,8 +5,6 @@ class DataTypes {
         int b = 25;
         int sum = a + b;
         System.out.println(sum);
-    }
-
-
+    
     }
 }
