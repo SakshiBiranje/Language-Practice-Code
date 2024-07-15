@@ -13,6 +13,7 @@ class Complex
         a=x;
         b=y;
     }
+    
     void setDataBySum(Complex a1,Complex b1)
     {
         a= a1.a + b1.a;
