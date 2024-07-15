@@ -2,6 +2,7 @@
 #include<iomanip>
 
 using namespace std;
+
 class Employee
 {
     private :
@@ -17,8 +18,8 @@ class Employee
         cout<<"The value of b : "<<b<<endl;
         cout<<"The value of c : "<<c<<endl;
     }
-
 };
+
 void Employee::setData(int x,int y,int z)
 {
     a=x;
