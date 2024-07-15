@@ -15,7 +15,7 @@ a[j] = temp;
         }  
     }  
     int temp = a[i + 1];     a[i + 1] = a[high];     
-a[high] = temp;  
+    a[high] = temp;  
     return (i + 1);  
 }  
 void quickSort(int a[], int low, int high)   
