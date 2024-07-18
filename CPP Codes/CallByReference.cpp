@@ -9,6 +9,7 @@ int swap(int a,int b)
     a=b;
     b=temp;
 }
+
 int swapPointer(int *a,int *b)
 {
     int temp=*a;
@@ -21,7 +22,6 @@ int swapReferenceVar(int &a,int &b)
     a=b;
     b=temp;
 }
-
 int main()
 {
     int x,y;
