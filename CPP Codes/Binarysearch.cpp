@@ -19,7 +19,6 @@ int binarySearch(int arr[], int n, int x)
 
     return -1;
 }
-
 int main() 
 {
     int arr[] = {2, 3, 4, 10, 40};
