@@ -2,7 +2,8 @@ import java.util.*;
 
 public class  stringCharAt
 {
-    public static void main(String arg[]){
+    public static void main(String arg[])
+    {
         String firstName = "Tony";
         String lastName = "Stark";
         String fulName = firstName +" "+lastName;
@@ -10,7 +11,8 @@ public class  stringCharAt
         System.out.println(fulName.length());
         //charAt
         int n =5 ;
-        for(int i=0; i<fulName.length();i++){
+        for(int i=0; i<fulName.length();i++)
+        {
             System.out.println(fulName.charAt(i));
         }
 
