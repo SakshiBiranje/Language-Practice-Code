@@ -10,7 +10,7 @@ int oper = scanner.nextInt();
     //update bit
     int bitMask =1<<pos;
     if(oper==1){
-        //set
+    //set
     //int bitMask=1<<pos;
     int newNumber  = bitMask | n;
       } 
