@@ -14,7 +14,7 @@ public class recurionPLaceTiles {
     }
 
     public static void main(String args[]){
-int n=4,m=2;
-System.out.println(placeTiles(n, m));
+    int n=4,m=2;
+    System.out.println(placeTiles(n, m));
     }
 }
