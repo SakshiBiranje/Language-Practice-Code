@@ -21,7 +21,6 @@ print(arr3.dtype)
 
 
 #Change data type from float to integer by using 'i' as parameter value
-import numpy as np
 
 arr = np.array([1.1, 2.1, 3.1])
 
@@ -32,7 +31,6 @@ print(newarr.dtype)
 
 
 #Change data type from float to integer by using int as parameter value
-import numpy as np
 
 arr = np.array([1.1, 2.1, 3.1])
 
@@ -43,7 +41,6 @@ print(newarr.dtype)
 
 
 #Change data type from integer to boolean
-import numpy as np
 
 arr = np.array([1, 0, 3])
 
