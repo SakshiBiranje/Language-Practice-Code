@@ -1,4 +1,5 @@
-public class recuursionStringInReverse {
+public class recuursionStringInReverse 
+{
     public static void printRev(String str,int idx){
         if(idx==0){
             System.out.print(str.charAt(idx));
