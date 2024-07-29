@@ -1,6 +1,7 @@
 import java.util.HashSet;
 
-public class RecursionUniqueSubsequences {
+public class RecursionUniqueSubsequences 
+{
     public static void Subsequences(String str,int idx,String newString,HashSet<String>set) {
     if(idx ==str.length()){
         if(set.contains(newString)){
