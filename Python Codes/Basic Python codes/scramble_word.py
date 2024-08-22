@@ -1,9 +1,9 @@
 import random
 
 def scramble_word(word):
+
     scrambled = ''.join(random.sample(word, len(word)))
     return scrambled
-
 def word_scramble_game():
     words = ["python", "simple", "unique", "creative", "programming"]
     word_to_guess = random.choice(words)
@@ -24,6 +24,7 @@ def word_scramble_game():
             print(f"Congratulations! You guessed the word '{word_to_guess}' in {attempts} attempts.")
         else:
             print("Incorrect guess. Try again!")
+    
     
 if __name__ == "__main__":
     word_scramble_game()
