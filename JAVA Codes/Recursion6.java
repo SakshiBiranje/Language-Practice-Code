@@ -14,6 +14,7 @@ public class Recursion6
             return calPower(x,n/2)*calPower(x,n/2)*x;
         }
     }
+    
     //2^5=32
     
     public static void main(String[] args) {
