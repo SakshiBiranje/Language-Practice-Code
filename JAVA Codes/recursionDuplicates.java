@@ -3,7 +3,8 @@ public class recursionDuplicates
  public static boolean[] map = new boolean[26];
 
  public static void removeDuplicates(String str,int idx,String newString){
-   if(idx == str.length()){
+   if(idx == str.length())
+   {
     System.out.println(newString);
     return;
    }
