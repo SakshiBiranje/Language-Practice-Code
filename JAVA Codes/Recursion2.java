@@ -1,5 +1,4 @@
-public class Recursion2
-{
+public class Recursion2 {
     //to print 5 to 1 
     public static void printNum(int n)
     {
