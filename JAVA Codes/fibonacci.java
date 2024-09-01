@@ -1,43 +1,20 @@
-import java.util.*;
+//Fibonacci Series
 
+public class Fibonacci 
+{
 
-public class fibonacci {
+public static void main(String[] args) 
+{
 
-   public static void main(String args[]) {
+int n = 10, num1 = 0, num2 = 1;
 
-       Scanner sc = new Scanner(System.in);
+System.out.print("Fibonacci Series: " + num1 + "," + num2);
 
-       int n = sc.nextInt();
+for (int i = 2; i < n; i++) 
+{
 
-     
-
-       int a = 0, b = 1;
-
-       System.out.print(a+" ");
-
-     
-
-       if(n > 1) {
-
-           //find nth term
-
-           for(int i=2; i<=n; i++) {
-
-               System.out.print(b+" ");
-
-               //the concept below is called swapping
-
-               int temp = b;
-
-               b = a + b;
-
-               a = temp;
-
-           }
-
-
-           System.out.println();
-
-        }
+int num3 num1 num2; System.out.print(", " + num3); num1 = num2; num2 = num3;
+      }
+    
     }
 }
