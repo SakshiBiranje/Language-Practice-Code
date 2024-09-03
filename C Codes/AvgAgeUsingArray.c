@@ -11,7 +11,8 @@ int main()
   int length = sizeof(ages) / sizeof(ages[0]);
     
   // Loop through the elements of the array and accumulate the sum
-  for (i = 0; i < length; i++) {
+  for (i = 0; i < length; i++) 
+  {
     sum += ages[i];
   }
 }
