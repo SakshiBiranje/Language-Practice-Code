@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void fibonacci(int n) {
+void fibonacci(int n) 
+{
     int first = 0, second = 1, next;
 
     printf("Fibonacci series up to %d numbers:\n", n);
