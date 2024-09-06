@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int calculate_weight(const char *str) {
+int calculate_weight(const char *str) 
+{
     int total_weight = 0;
 
     for (int i = 0; str[i] != '\0'; i++) {
