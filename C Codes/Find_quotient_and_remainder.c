@@ -3,6 +3,7 @@
 int main()
 {
     int a,b,quo=0,rem=0;
+    
     printf("Enter two numbers: ");
     scanf("%d %d",&a ,&b);
     quo=a/b;
