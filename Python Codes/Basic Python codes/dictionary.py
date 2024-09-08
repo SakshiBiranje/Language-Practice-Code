@@ -5,6 +5,7 @@ print(d1)  # key - value pair
 print(type(d1))  #type 
 print(d1.keys()) #keys
 print(d1.values()) #values of keys
+
 d1['guava'] = 40 #add element
 print(d1)
 #functions in dict 
