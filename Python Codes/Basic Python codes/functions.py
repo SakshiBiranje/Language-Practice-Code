@@ -4,6 +4,7 @@ def my_function():
 
 my_function()
 print("\n")
+
 def my_function(fname):
   print(fname + " Biranje")
 
