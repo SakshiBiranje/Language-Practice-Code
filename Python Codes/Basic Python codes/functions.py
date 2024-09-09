@@ -3,7 +3,6 @@ def my_function():
   print("Hello from a function")
 
 my_function()
-
 print("\n")
 def my_function(fname):
   print(fname + " Biranje")
