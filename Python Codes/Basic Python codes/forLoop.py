@@ -3,9 +3,11 @@ fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
 
+
 # to print each character in a string
   for x in "banana":
    print(x)
+   
    
 # to print each element in a list and break when it is "banana"
 fruits = ["apple", "banana", "cherry"]
