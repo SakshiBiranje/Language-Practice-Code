@@ -1,7 +1,6 @@
 #variables in python 
 student = "Sam"
 print(student)
-
 #data types - int , float , complex, boolean ,string
 a1=10
 print(a1)
