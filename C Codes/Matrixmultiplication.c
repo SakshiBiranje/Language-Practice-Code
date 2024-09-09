@@ -11,6 +11,7 @@ void multiplyMatrices(int firstMatrix[10][10], int secondMatrix[10][10], int res
     }
 }
 
+
 int main() 
 {
     int firstMatrix[10][10], secondMatrix[10][10], result[10][10], row1, col1, row2, col2;
@@ -42,7 +43,6 @@ int main()
 
     multiplyMatrices(firstMatrix, secondMatrix, result, row1, col1, col2);
 
-
     printf("\nResultant Matrix:\n");
     for (int i = 0; i < row1; ++i) {
         for (int j = 0; j < col2; ++j) {
@@ -50,6 +50,6 @@ int main()
         }
         printf("\n");
     }
-
+    
     return 0;
 }
