@@ -6,6 +6,7 @@ using namespace std;
 class Complex
 {
     int a,b;
+    
     public :
     void setdata(int x,int y)
     {
