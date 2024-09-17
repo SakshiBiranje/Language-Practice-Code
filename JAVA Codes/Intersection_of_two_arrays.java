@@ -17,12 +17,10 @@ public class Intersection_of_two_arrays {
                 counter.put(num, counter.get(num) - 1);
             }
         }
-
         int[] res = new int[t.size()];
         for (int i = 0; i < res.length; ++i) {
             res[i] = t.get(i);
         }
-        
         return res;
     }
 
