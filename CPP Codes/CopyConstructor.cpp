@@ -15,6 +15,7 @@ class copyC
     {
         a = x; 
     }
+    
     copyC(copyC &obj)
     {
         cout<<"copy constructor called"<<endl;
