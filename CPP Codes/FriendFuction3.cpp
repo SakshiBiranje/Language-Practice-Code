@@ -5,6 +5,7 @@ using namespace std;
 
 class y;
 class x
+
 {
     int val1;
     friend void exchange(x &,y &);
