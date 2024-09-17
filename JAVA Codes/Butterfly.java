@@ -33,7 +33,6 @@ public class Butterfly{
             for(int j=1;j<=spaces;j++){
                 System.out.print(" ");
             }
-
             //2nd part
             for(int j=1;j<=i;j++){
                 System.out.print("*");
