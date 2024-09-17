@@ -3,11 +3,12 @@
 
 using namespace std;
 
-class simple{
+class simple
+{
     int data1;
     int data2;
     int data3;
-    
+
     public :
     simple(int a,int b=6,int c=2)
     {
