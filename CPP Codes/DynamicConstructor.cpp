@@ -1,7 +1,8 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
-class BankDeposit{
+class BankDeposit
+{
     int principal;
     int year;
     float interestRate;
