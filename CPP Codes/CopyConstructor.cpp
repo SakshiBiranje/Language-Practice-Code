@@ -3,7 +3,8 @@
 
 using namespace std;
 
-class copyC{
+class copyC
+{
     int a=10;
     public :
     copyC()
