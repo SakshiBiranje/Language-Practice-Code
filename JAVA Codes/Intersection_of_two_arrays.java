@@ -4,27 +4,33 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Intersection_of_two_arrays {
-    public int[] intersect(int[] nums1, int[] nums2) {
+public class Intersection_of_two_arrays 
+{
+    public int[] intersect(int[] nums1, int[] nums2) 
+    {
         Map<Integer, Integer> counter = new HashMap<>();
-        for (int num : nums1) {
+        for (int num : nums1) 
+        {
             counter.put(num, counter.getOrDefault(num, 0) + 1);
         }
         List<Integer> t = new ArrayList<>();
         for (int num : nums2) {
-              if (counter.getOrDefault(num, 0) > 0) {
+              if (counter.getOrDefault(num, 0) > 0) 
+              {
                     t.add(num);
                 counter.put(num, counter.get(num) - 1);
             }
         }
         int[] res = new int[t.size()];
-        for (int i = 0; i < res.length; ++i) {
+        for (int i = 0; i < res.length; ++i) 
+        {
             res[i] = t.get(i);
         }
         return res;
     }
 
-        public static void main(String[] args) {
+        public static void main(String[] args) 
+        {
         Scanner scanner = new Scanner(System.in);
         
         System.out.print("Enter the size of the first array: ");
