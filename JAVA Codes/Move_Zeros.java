@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 class MoveZeros {
-
     public void moveZeroes(int[] nums) {
         int i = -1, n = nums.length;
         for (int j = 0; j < n; ++j) {
