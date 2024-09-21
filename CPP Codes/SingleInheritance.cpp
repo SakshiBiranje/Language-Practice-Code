@@ -2,7 +2,8 @@
 #include<iomanip>
 using namespace std;
 
-class base{
+class base
+{
     int num1;
 
     public :
@@ -12,6 +13,7 @@ class base{
     int getnum2();
     int  process1();
 };
+
 int base ::getnum1()
 {
     cin>>num1;
