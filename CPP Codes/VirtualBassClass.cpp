@@ -1,7 +1,10 @@
 #include<iostream>
 #include<iomanip>
+
 using namespace std;
-class student{
+
+class student
+{
     protected :
     int rollno;
     public :
@@ -14,7 +17,8 @@ class student{
 };
 
 
-class test : virtual public student {
+class test : virtual public student 
+{
     protected :
     float maths , physic ;
     public :
