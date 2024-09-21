@@ -1,5 +1,6 @@
 #include<iostream>
 #include<iomanip>
+
 using namespace std;
 
 struct food
@@ -8,7 +9,6 @@ struct food
     char name;
     float price;
 };
-
 int main()
 {
     struct food Lunch;
