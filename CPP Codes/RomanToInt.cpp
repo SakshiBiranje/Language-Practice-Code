@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <unordered_map>
-
 using namespace std;
 
 class Solution 
@@ -9,6 +8,7 @@ class Solution
 public:
     int romanToInt(const string& s) 
     {
+        
         unordered_map<char, int> romanMap = 
         {
             {'I', 1},
