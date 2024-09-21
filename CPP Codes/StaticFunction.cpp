@@ -1,6 +1,7 @@
 //Static  runs runs only one time if its in the loop
 #include<iostream>    
 #include<iomanip>
+
 using namespace std;
 
 int sol(int x,int y)
