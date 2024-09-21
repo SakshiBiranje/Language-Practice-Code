@@ -33,7 +33,6 @@ private:
                (l == '{' && r == '}');
     }
 };
-
 int main() 
 {
     Solution solution;
