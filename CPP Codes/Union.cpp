@@ -2,6 +2,7 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
+
 union Student
 {
     int no;
