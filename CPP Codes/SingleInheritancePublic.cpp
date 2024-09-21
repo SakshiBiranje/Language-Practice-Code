@@ -1,6 +1,7 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
+
 class base
 {
     int num1;
