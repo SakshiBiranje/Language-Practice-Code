@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class  stringCharAt{
+public class  stringCharAt
+{
     public static void main(String arg[]){
         String firstName = "Tony";
         String lastName = "Stark";
