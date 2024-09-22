@@ -1,7 +1,9 @@
 import java.util.*;
 
-public interface string {
- public static void main(String args[]){
+public interface string 
+{
+ public static void main(String args[])
+ {
     String name1 = "Sakshi";
     String name2 = "Sakshi";
     //1 s1 >s2 = +ve value
