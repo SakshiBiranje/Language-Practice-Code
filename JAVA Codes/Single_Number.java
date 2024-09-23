@@ -1,5 +1,6 @@
 import java.util.*;
 import java.util.Scanner;
+
 class Single_Number
 {
     public int SingleNumber(int[] nums) 
