@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Rotate_Image{
-    // Function to rotate the matrix
+    
     public void rotate(int[][] matrix) {
         int s = 0, n = matrix.length;
         while (s < (n >> 1)) {
@@ -17,7 +17,6 @@ class Rotate_Image{
         }
     }
 
-    // Function to print the matrix
     public void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
             for (int val : row) {
@@ -30,13 +29,11 @@ class Rotate_Image{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input the size of the matrix
         System.out.print("Enter the size of the matrix (n x n): ");
         int n = sc.nextInt();
 
         int[][] matrix = new int[n][n];
 
-        // Input the matrix elements
         System.out.println("Enter the matrix elements row by row:");
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
