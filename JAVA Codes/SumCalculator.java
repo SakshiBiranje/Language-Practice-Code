@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
 public class SumCalculator {
-    
     // Function to calculate the sum of two numbers
     public static double calculateSum(double num1, double num2) {
         return num1 + num2;
