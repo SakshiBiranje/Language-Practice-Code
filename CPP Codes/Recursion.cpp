@@ -1,6 +1,7 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
+
 int fact(int n)
 {
     if(n<=1)
