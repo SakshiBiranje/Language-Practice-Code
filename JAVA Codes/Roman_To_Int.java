@@ -1,7 +1,8 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Roman_To_Int {
+public class Roman_To_Int 
+{
     public int romanToInt(String s) {
         // Define a map for Roman numerals and their integer values
         HashMap<Character, Integer> romanMap = new HashMap<>();
