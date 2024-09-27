@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Roman_To_Int 
 {
     public int romanToInt(String s) {
-        // Define a map for Roman numerals and their integer values
+        
         HashMap<Character, Integer> romanMap = new HashMap<>();
         romanMap.put('I', 1);
         romanMap.put('V', 5);
@@ -17,7 +17,6 @@ public class Roman_To_Int
         int total = 0;
         int preValue = 0;
 
-        // Traverse the string
         for (char c : s.toCharArray()) {
             int value = romanMap.get(c);
             if (value > preValue) {
