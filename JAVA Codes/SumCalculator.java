@@ -19,7 +19,6 @@ public class SumCalculator {
         scanner.close();
 
         double sum = calculateSum(num1, num2);
-
         System.out.println("The sum is: " + sum);
     }
 }
