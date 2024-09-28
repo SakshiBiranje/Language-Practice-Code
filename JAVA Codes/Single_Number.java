@@ -1,7 +1,7 @@
-import java.util.*;
 import java.util.Scanner;
 
-class Single_Number{
+class Single_Number
+{
     public int SingleNumber(int[] nums) 
     {
         int ans=0;
