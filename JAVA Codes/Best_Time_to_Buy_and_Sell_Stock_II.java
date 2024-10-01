@@ -1,6 +1,5 @@
 import java.util.Scanner;
-public class Best_Time_to_Buy_and_Sell_Stock_II 
-{
+public class Best_Time_to_Buy_and_Sell_Stock_II {
     public int maxProfit(int[] prices) {
         int ans = 0;
         for (int i = 1; i < prices.length; ++i) {
@@ -13,6 +12,7 @@ public class Best_Time_to_Buy_and_Sell_Stock_II
     {
         Scanner sc = new Scanner(System.in);
         Best_Time_to_Buy_and_Sell_Stock_II calculator = new  Best_Time_to_Buy_and_Sell_Stock_II();
+        
         System.out.print("Enter number of days: ");
         int n = sc.nextInt();
         int[] prices = new int[n];
