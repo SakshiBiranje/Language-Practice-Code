@@ -6,14 +6,12 @@ using namespace std;
 class Complex
 {
     int a,b;
-
     public :
     void setdata(int x,int y)
     {
         a=x;
         b=y;
     }
-    
     void setDataBySum(Complex a1,Complex b1)
     {
         a= a1.a + b1.a;
