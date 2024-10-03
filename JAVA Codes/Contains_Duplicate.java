@@ -1,6 +1,7 @@
 import java.util.*;
 
-class Contains_Duplicate {
+class Contains_Duplicate 
+{
 public boolean ContainsDuplicate(int[] nums) {
     Set<Integer>s= new HashSet<>();
     for(int num : nums){
