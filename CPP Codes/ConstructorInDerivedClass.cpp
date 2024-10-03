@@ -17,7 +17,6 @@ class base1
         cout<<"Base 1 : "<<data1<<endl;
     }
 };
-
 class base2
 {
     int data2;
