@@ -22,7 +22,6 @@ class complex
         cout<<"a = "<<a<<endl<<"b = "<<b<<endl;
     }
     complex(int x)
-
     {
         a=x;
         b=0;
