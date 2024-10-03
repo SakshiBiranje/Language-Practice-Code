@@ -3,7 +3,8 @@
 
 using namespace std;
 
-class complex{
+class complex
+{
     int a,b;
     public :
     complex(void); //constructor is declared ---default constructor
