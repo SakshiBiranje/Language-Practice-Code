@@ -19,14 +19,12 @@ class Employee
         cout<<"The value of c : "<<c<<endl;
     }
 };
-
 void Employee::setData(int x,int y,int z)
 {
     a=x;
     b=y;
     c=z;
 }
-
 int main()
 {
     Employee sudarshan;
