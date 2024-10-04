@@ -1,4 +1,5 @@
-class DataTypes {
+class DataTypes 
+{
     public static void main(string args[]){
         //variables
         int a = 10;
