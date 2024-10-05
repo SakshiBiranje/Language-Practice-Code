@@ -2,6 +2,7 @@
 #include<iomanip>
 
 using namespace std;
+
 int swap(int a,int b)
 {
     int temp=a;
