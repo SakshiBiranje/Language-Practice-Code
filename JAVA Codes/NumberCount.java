@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class NumberCount{
+public class NumberCount
+{
     public static void main(String args[]){
         int positive=0;
         int negative=0;
