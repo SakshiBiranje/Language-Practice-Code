@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class Functions  {
+public class Functions  
+{
     public static int calculateSum(int a , int b)
      {
         return a+b;
