@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class GreatestCommonDivisor {
+public class GreatestCommonDivisor 
+{
     public static void divisor(int n1 , int n2) { 
     while(n1 != n2){
         if(n1>n2){
