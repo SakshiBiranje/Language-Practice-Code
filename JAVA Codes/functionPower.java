@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class functionPower{
+public class functionPower
+{
     public static int power(int x, int n) {
         int result = 1;
         for(int i=0;i<n;i++){
