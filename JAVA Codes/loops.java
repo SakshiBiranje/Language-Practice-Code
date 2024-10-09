@@ -18,7 +18,6 @@ public class loops{
       //System.out.println(i);
       //i=i+1;
    // }
-
    //do while loop
     //int i=0;
     //do {
