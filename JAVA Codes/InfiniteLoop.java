@@ -6,7 +6,7 @@ public class InfiniteLoop
     {
         do
         {
-
-        } while(true);
+        }
+         while(true);
     }
 }
