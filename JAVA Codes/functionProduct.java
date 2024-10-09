@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class functionProduct{
+public class functionProduct
+{
     public static int calculateProduct(int a, int b){
         return a * b;
     }
