@@ -9,6 +9,7 @@ public class Intersection_of_two_arrays
     public int[] intersect(int[] nums1, int[] nums2) 
     {
         Map<Integer, Integer> counter = new HashMap<>();
+
         for (int num : nums1) 
         {
             counter.put(num, counter.getOrDefault(num, 0) + 1);
@@ -31,7 +32,6 @@ public class Intersection_of_two_arrays
         return res;
     }
 
-    
         public static void main(String[] args) 
         {
         Scanner scanner = new Scanner(System.in);
