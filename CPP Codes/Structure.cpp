@@ -9,6 +9,7 @@ struct food
     char name;
     float price;
 };
+
 int main()
 {
     struct food Lunch;
