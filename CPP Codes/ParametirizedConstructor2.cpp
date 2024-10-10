@@ -11,6 +11,7 @@ class point
         a=x;
         b=y;
      }
+     
      void display(void)
      {
         cout<<"x-Axis : "<<a<<endl<<"y-Axis : "<<b<<endl;
