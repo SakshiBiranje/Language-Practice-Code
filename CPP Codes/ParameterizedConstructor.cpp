@@ -12,6 +12,7 @@ class complex
         cout<<a<<"+"<<b<<"i"<<endl;
     }
 };
+
 complex::complex(int x,int y) 
 {
     a=x;
