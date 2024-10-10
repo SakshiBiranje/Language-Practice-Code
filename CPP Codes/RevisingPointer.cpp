@@ -22,5 +22,6 @@ int main()
 	cout <<"The Value at array[0] is " << array[0] << endl;
 	cout <<"The Value at array[1] is " << array[1] << endl;
 	cout <<"The Value at array[2] is " << array[2] << endl;
+    
     return 0;
 }
