@@ -27,6 +27,7 @@ class Employee
 };
 
 int Employee :: count;
+
 int main()
 {
     Employee e1;
