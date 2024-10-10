@@ -10,6 +10,7 @@ int sol(int x,int y)
     z=z+1;
     return (x*y)+z;
 }
+
 int main()
 {
     int a,b;
