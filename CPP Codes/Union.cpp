@@ -9,7 +9,9 @@ union Student
     char div;
     float marks;
 };
-int main(){
+
+int main()
+{
     union Student s1;
     s1.no=21;
     s1.div='a';
@@ -17,6 +19,7 @@ int main(){
     cout<<"Number : "<<s1.no << endl;
     cout<<"Division : "<<s1.div << endl;
     cout<<"Marks : "<<s1.marks<<endl;
+    
     return 0;
 }
 //the union only allow one of the team to get access i.e the lastone
