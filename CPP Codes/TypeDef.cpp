@@ -23,7 +23,6 @@ int main()
     cout<<"Starting letter of Lunch : "<<Lunch.name<<endl;
     cout<<"Price of Lunch: "<<Lunch.price<<endl;
     
-
     cout<<"Enter the quantity of food : ";
     cin>>Breakfast.quantity;
     cout<<"Enter the Starting letter of food : ";
