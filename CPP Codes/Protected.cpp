@@ -3,7 +3,8 @@
 
 using namespace std;
 
-class base{
+class base
+{
   protected :
     int a;
     private :
