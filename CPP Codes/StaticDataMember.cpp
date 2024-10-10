@@ -22,6 +22,7 @@ class Student
 };
 
 int Student :: count=100;
+
 int main()
 {
     Student S;
@@ -39,5 +40,4 @@ int main()
     
     K.setData();
     K.getData();
-
 }
