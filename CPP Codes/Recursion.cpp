@@ -13,7 +13,6 @@ int fact(int n)
     }
 }
 int fib(int n);
-
 int main()
 {
     int x;
