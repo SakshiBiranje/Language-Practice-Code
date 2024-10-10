@@ -21,6 +21,7 @@ int base:: getdata1()
 {
     return num1;
 }
+
 int base:: getdata2()
 {
     return num2;
