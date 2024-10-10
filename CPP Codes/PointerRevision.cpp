@@ -17,6 +17,7 @@ int main()
     array[1]=7;
     array[2]=8;
     *ptr1 = 20;
+    
     cout<<"Value of ptr1 : "<<*ptr1<<endl;
     cout<<"Value of ptr1 : "<<ptr1<<endl;
     cout<<"Value of ptr2 : "<<*ptr2<<endl;
