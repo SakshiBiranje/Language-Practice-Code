@@ -13,7 +13,6 @@ class base
     int getnum2();
     int  process1();
 };
-
 int base ::getnum1()
 {
     cin>>num1;
