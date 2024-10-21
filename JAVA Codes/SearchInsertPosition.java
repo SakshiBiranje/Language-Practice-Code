@@ -1,20 +1,27 @@
 import java.util.*;
 import java.util.Scanner; 
-class SearchInsertPosition {
-    public int searchInsert(int[] nums, int target) {
+
+class SearchInsertPosition 
+{
+    public int searchInsert(int[] nums, int target) 
+    {
         int left = 0, right = nums.length;
-        while (left < right) {
+        while (left < right) 
+        {
             int mid = (left + right)/2;
-            if (nums[mid] >= target) {
+            if (nums[mid] >= target) 
+            {
                 right = mid;
-            } else {
+            } else 
+            {
                 left = mid + 1;
             }
         }
         return left;
     }
 
-    public static void main (String[] args){
+    public static void main (String[] args)
+    {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of array : ");
         int size= sc.nextInt();
@@ -22,7 +29,8 @@ class SearchInsertPosition {
         int nums[] = new int[size];
         System.out.println("Enter array Elements : ");
         
-        for(int i=0;i<size;i++){
+        for(int i=0;i<size;i++)
+        {
             nums[i]= sc.nextInt();
         }
         System.out.println("Enter target element: ");
