@@ -8,7 +8,7 @@ class SearchInsertPosition
         int left = 0, right = nums.length;
         while (left < right) 
         {
-            int mid = (left + right)/2;
+            int mid = (left + right) >> 1;  // ethe left shift operator(>>) vaprlai instead of (l+r)/2 ....divide by 2 pn vapru shakto
             if (nums[mid] >= target) 
             {
                 right = mid;
