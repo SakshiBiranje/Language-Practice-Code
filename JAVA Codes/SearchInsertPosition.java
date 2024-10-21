@@ -12,8 +12,7 @@ class SearchInsertPosition
             if (nums[mid] >= target) 
             {
                 right = mid;
-            } else 
-            {
+            } else  {
                 left = mid + 1;
             }
         }
