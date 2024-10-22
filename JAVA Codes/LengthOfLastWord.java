@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 class LengthOfLastWord
 {
+    //method - lastword chi length print karnya sathi
     public int LastWordLength(String s){
         int i = s.length()-1;
         while(i>=0 && s.charAt(i) == ' '){
@@ -13,6 +14,7 @@ class LengthOfLastWord
         }
         return i-j;
     }
+    // method - lastword print karanya sathi
     public String Lastword(String s){
         s = s.trim();
         int lastspaceindex = s.lastIndexOf(' ');
