@@ -13,6 +13,12 @@ class LengthOfLastWord
         }
         return i-j;
     }
+    public String Lastword(String s){
+        s = s.trim();
+        int lastspaceindex = s.lastIndexOf(' ');
+        return s.substring(lastspaceindex +1);
+    }
+
 
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
@@ -21,7 +27,9 @@ class LengthOfLastWord
 
         LengthOfLastWord obj = new LengthOfLastWord();
         int Length = obj.LastWordLength(sen);
+        String Lastword = obj.Lastword(sen);
         System.out.println("length of lastword : "+Length);
+        System.out.println("Last word : "+Lastword);
 
     }
 
