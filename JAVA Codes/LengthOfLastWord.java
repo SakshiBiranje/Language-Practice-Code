@@ -1,27 +1,27 @@
-import java.util.*;
 import java.util.Scanner;
 
-class LengthOfLastWord{
-    public int lastWordLength(String s){
-        int i=s.length()-1;
-        while(i>=0 && s.charAt(i) ==' '){
+class LengthOfLastWord
+{
+    public int LastWordLength(String s){
+        int i = s.length()-1;
+        while(i>=0 && s.charAt(i) == ' '){
             --i;
         }
-        int j=i;
+        int j = i;
         while(j>=0 && s.charAt(j) != ' '){
             --j;
         }
         return i-j;
     }
 
-    public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your sentence :");
-        String sen = sc.nextLine();
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your Sentence : ");
+        String sen = scanner.nextLine();
 
         LengthOfLastWord obj = new LengthOfLastWord();
-        int lastWord= obj.lastWordLength(sen); 
-        System.out.println("Length of last word : "+lastWord);
+        int Length = obj.LastWordLength(sen);
+        System.out.println("length of lastword : "+Length);
 
     }
 
