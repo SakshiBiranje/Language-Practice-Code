@@ -45,7 +45,6 @@ class DeleteNodeInLinkedList {
         Scanner sc = new Scanner(System.in);
         DeleteNodeInLinkedList obj = new DeleteNodeInLinkedList();
 
-        // Create a linked list
         ListNode head = null;
         System.out.println("Enter the number of nodes in the linked list:");
         int n = sc.nextInt();
@@ -59,11 +58,9 @@ class DeleteNodeInLinkedList {
         System.out.println("Linked list before deletion:");
         obj.printList(head);
 
-        // Select the node to delete (not the last node)
         System.out.println("Enter the value of the node to delete (not the last node):");
         int deleteVal = sc.nextInt();
 
-        // Find the node to delete
         ListNode nodeToDelete = head;
         while (nodeToDelete != null && nodeToDelete.val != deleteVal) {
             nodeToDelete = nodeToDelete.next;
