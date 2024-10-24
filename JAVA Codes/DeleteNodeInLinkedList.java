@@ -48,7 +48,8 @@ class DeleteNodeInLinkedList
         return head;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
         DeleteNodeInLinkedList obj = new DeleteNodeInLinkedList();
 
@@ -57,7 +58,8 @@ class DeleteNodeInLinkedList
         int n = sc.nextInt();
 
         System.out.println("Enter the values for the linked list:");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             int val = sc.nextInt();
             head = obj.insertNode(head, val);
         }
