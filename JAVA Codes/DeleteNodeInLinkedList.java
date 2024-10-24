@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-class ListNode{
+class ListNode
+{
     int val;
     ListNode next;
     ListNode(int x) {
@@ -9,10 +10,13 @@ class ListNode{
     }
 }
 
-class DeleteNodeInLinkedList {
+class DeleteNodeInLinkedList 
+{
 
-    public void deleteNode(ListNode node) {
-        if (node == null || node.next == null) {
+    public void deleteNode(ListNode node) 
+    {
+        if (node == null || node.next == null) 
+        {
             System.out.println("Cannot delete the node");
             return;
         }
