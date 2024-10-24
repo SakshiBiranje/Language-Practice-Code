@@ -24,16 +24,19 @@ class DeleteNodeInLinkedList
         node.next = node.next.next;  
     }
 
-    public void printList(ListNode head) {
+    public void printList(ListNode head) 
+    {
         ListNode current = head;
-        while (current != null) {
+        while (current != null) 
+        {
             System.out.print(current.val + " ");
             current = current.next;
         }
         System.out.println();
     }
 
-    public ListNode insertNode(ListNode head, int val) {
+    public ListNode insertNode(ListNode head, int val) 
+    {
         if (head == null) {
             return new ListNode(val);
         }
