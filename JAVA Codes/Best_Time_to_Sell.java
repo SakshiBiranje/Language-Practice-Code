@@ -11,7 +11,8 @@ public int maxprofit(int[] prices)
     }
     return ans;
 }
-public static void main(String[] args){
+public static void main(String[] args)
+{
     Scanner sc = new Scanner(System.in);
     int[] prices= new int[7];
     System.out.println("Enter prices of 7 days :");
