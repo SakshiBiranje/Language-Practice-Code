@@ -9,21 +9,27 @@ public class twoDArrays {
         int col = sc.nextInt();
         System.out.print("Matrix:");
         int[][]numbers = new int[rows][col];
+
         //input 
         //rows
+
         for(int i=0; i<rows ; i++){
             //cols
-            for(int j=0; j<col ; j++){
+            for(int j=0; j<col ; j++)
+            {
                 numbers[i][j] = sc.nextInt();
 
             }
         }
         System.out.print("Enter element :");
         int x = sc.nextInt();
-        for(int i=0; i<rows ; i++){
+        for(int i=0; i<rows ; i++)
+        {
             //cols
-            for(int j=0; j<col ; j++){
-                if(numbers[i][j] == x) {
+            for(int j=0; j<col ; j++)
+            {
+                if(numbers[i][j] == x) 
+                {
                     System.out.println("x found at location :(" + i + "," + j + ")");
                 }
             }
