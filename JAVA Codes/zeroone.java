@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class zeroone{
+public class zeroone
+{
 public static void main(String args[]){
     //Scanner scanner = new scanner(System.in);
     int n = 5;
