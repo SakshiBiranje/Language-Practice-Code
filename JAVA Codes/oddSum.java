@@ -1,19 +1,26 @@
-import java.util.*;
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.util.Scanner;
 
-public class oddSum{
-    public static void sum(int n){
-        int sum=0;
-        for(int i=1;i<=n;i++){
-            if(i%2!=0){
-                sum = sum+i;
-            }
-        }
-        System.out.print(sum);
-        
-    }
-    public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        int n =sc.nextInt();
-        sum(n);
-    }
+class oddSum {
+   oddSum() {
+   }
+
+   public static void sum(int var0) {
+      int var1 = 0;
+
+      for(int var2 = 1; var2 <= var0; ++var2) {
+         if (var2 % 2 != 0) {
+            var1 += var2;
+         }
+      }
+
+      System.out.print(var1);
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      System.out.print("Enter n : ");
+      int var2 = var1.nextInt();
+      sum(var2);
+   }
 }
