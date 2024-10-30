@@ -5,6 +5,7 @@ public int maxprofit(int[] prices)
 {
     int ans=0;
     int min = prices[0];
+    
     for(int value : prices )
     {
         ans=Math.max(ans,value-min);
