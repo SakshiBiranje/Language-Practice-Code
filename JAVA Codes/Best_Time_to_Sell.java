@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 class Best_Time_to_Sell 
 {
 public int maxprofit(int[] prices) 
@@ -13,6 +14,7 @@ public int maxprofit(int[] prices)
     }
     return ans;
 }
+
 public static void main(String[] args)
 {
     Scanner sc = new Scanner(System.in);
@@ -24,6 +26,7 @@ public static void main(String[] args)
     }
     Best_Time_to_Sell obj = new Best_Time_to_Sell();
     int ans= obj.maxprofit(prices);
+    
     System.out.println("Profit : "+ans);
 }
 }
