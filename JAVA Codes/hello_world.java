@@ -1,5 +1,3 @@
-
-
 class hello_world
 {
     public static void main(String args[]) {
@@ -9,7 +7,7 @@ class hello_world
         System.out.print("* * *\n");
         System.out.print("* *\n");
         System.out.print("*\n");
-        System.out.print("*\n**\n***\n*****\n*****");   
+        System.out.print("*\n* *\n* * *\n* * * * \n* * * * *");   
    
     }
 }
