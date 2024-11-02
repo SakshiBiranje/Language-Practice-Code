@@ -3,7 +3,8 @@
 import java.util.*;
 public class BitMan 
 {
-    public static void main(String args[]) {
+    public static void main(String args[]) 
+    {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number : ");
         int no = sc.nextInt();
@@ -11,7 +12,8 @@ public class BitMan
         int pos = sc.nextInt();
         int bitMask = 1 << pos;
 
-        if ((bitMask & no) == 0) {
+        if ((bitMask & no) == 0)
+        {
             System.out.println("bit was zero");
         } else
 
