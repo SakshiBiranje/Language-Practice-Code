@@ -13,6 +13,7 @@ int main()
 {
     ep Lunch;
     ep Breakfast;
+    
     cout<<"Enter the quantity of food : ";
     cin>>Lunch.quantity;
     cout<<"Enter the Starting letter of food : ";
