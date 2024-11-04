@@ -38,7 +38,6 @@ int main()
 {
     Solution solution;
     string test ;
-   
     cout<<"Enter parentheses : "<<endl;
     cin>>test;
 
