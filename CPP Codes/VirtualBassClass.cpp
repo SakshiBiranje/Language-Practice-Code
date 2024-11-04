@@ -16,7 +16,6 @@ class student
     }
 };
 
-
 class test : virtual public student 
 {
     protected :
