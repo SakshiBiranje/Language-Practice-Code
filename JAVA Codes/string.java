@@ -6,6 +6,7 @@ public interface string
  {
     String name1 = "Sakshi";
     String name2 = "Sakshi";
+    
     //1 s1 >s2 = +ve value
     //2 s1==s2 = 0
     //3 s1<s2 = -ve value
