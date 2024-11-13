@@ -1,7 +1,8 @@
 import java.util.*;
 
  public class  ReverseString {
- public static void main(String args[]){
+ public static void main(String args[])
+ {
  
      StringBuilder sb = new StringBuilder("Sakshi");
      //reverse index
