@@ -17,7 +17,6 @@ class Rotate_Image{
             ++s;
         }
     }
-
     public void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
             for (int val : row) {
