@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 public class Roman_To_Int 
 {
-    public int romanToInt(String s) {
+    public int romanToInt(String s) 
+    {
         
         HashMap<Character, Integer> romanMap = new HashMap<>();
         romanMap.put('I', 1);
