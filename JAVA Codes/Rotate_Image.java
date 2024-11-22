@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 class Rotate_Image{
     
-    public void rotate(int[][] matrix) {
+    public void rotate(int[][] matrix) 
+    {
         int s = 0, n = matrix.length;
         while (s < (n >> 1)) {
             int e = n - s - 1;
