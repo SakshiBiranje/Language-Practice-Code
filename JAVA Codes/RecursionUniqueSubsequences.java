@@ -15,7 +15,6 @@ public class RecursionUniqueSubsequences
         char currChar = str.charAt(idx);
         // choice of char to be
         Subsequences(str,idx+1,newString+currChar,set);
-        
         //not to be
         Subsequences(str, idx+1, newString,set);
     }
