@@ -19,7 +19,9 @@ class RotateString
         boolean result = rotateString.rotateString(s, goal);
         if (result) {
             System.out.println("True");
-        } else {
+        }
+         else 
+        {
             System.out.println("False");
         }
         
