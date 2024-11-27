@@ -23,6 +23,7 @@ class SearchInsertPosition
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of array : ");
+        
         int size= sc.nextInt();
 
         int nums[] = new int[size];
