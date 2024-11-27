@@ -11,6 +11,7 @@ public class Solidrhombus
             {
                 System.out.print(" ");
             }
+            
             //stars
             for(int j=1;j<=5;j++)
             {
