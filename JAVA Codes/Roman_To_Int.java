@@ -30,8 +30,8 @@ public class Roman_To_Int
 
         return total;
     }
-
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Roman_To_Int solution = new Roman_To_Int();
         Scanner sc = new Scanner(System.in);
 
