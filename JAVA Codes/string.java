@@ -16,7 +16,6 @@ public interface string
     }
 else {
     System.out.println("Strings are not equal");
-}
-
+     }
  }
 }
