@@ -15,7 +15,6 @@ public static void main(String args[]){
     //insert element
     sb.insert(2, 'n');
     System.out.println(sb);
-
     //delete extra n
     sb.delete(2,3);
     System.out.println(sb);
