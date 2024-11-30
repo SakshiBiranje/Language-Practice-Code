@@ -2,7 +2,8 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class ValidParentheses {
-    public boolean isValid(String s) {
+    public boolean isValid(String s) 
+    {
         Stack<Character> stk = new Stack<>();
         for (char c : s.toCharArray()) {
             if (c == '(' || c == '{' || c == '[') {
