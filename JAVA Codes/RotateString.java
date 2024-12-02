@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 class RotateString 
 {
-    public boolean rotateString(String s, String goal) {
+    public boolean rotateString(String s, String goal) 
+    {
         return s.length() == goal.length() && (s + s).contains(goal);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
         RotateString rotateString = new RotateString();
 
