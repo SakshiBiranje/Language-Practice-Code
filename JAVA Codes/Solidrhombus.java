@@ -18,6 +18,7 @@ public class Solidrhombus
             {
                 System.out.print("*");
             }
+            
             System.out.println();
         }
     }
