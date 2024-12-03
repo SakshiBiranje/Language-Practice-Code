@@ -2,7 +2,8 @@ import java.util.*;
 
 public class twoDArrays 
 {
-    public static void main(String args[]) {
+    public static void main(String args[]) 
+    {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter no. of rows:");
         int rows = sc.nextInt();
@@ -14,7 +15,8 @@ public class twoDArrays
         //input 
         //rows
 
-        for(int i=0; i<rows ; i++){
+        for(int i=0; i<rows ; i++)
+        {
             //cols
             for(int j=0; j<col ; j++)
             {
