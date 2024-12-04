@@ -2,7 +2,8 @@ import java.util.*;
 
 public class number
 {
-    public static void main(String args[]) {
+    public static void main(String args[]) 
+    {
         Scanner scanner = new Scanner(System.in);
         int n=5;
         int number = 1;
