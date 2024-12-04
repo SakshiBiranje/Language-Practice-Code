@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class invertedhalfpyramidwithno {
+public class invertedhalfpyramidwithno 
+{
     public static void main(String[] args)
     {
         int n=6;
