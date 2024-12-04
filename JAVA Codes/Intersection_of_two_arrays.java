@@ -29,6 +29,7 @@ public class Intersection_of_two_arrays
         return res;
     }
 
+    
         public static void main(String[] args) 
         {
         Scanner scanner = new Scanner(System.in);
