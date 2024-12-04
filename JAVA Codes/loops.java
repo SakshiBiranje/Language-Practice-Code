@@ -42,7 +42,9 @@ public class loops{
        //print table of a num input by user
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        for(int i=0;i<11;i++){
+        
+        for(int i=0;i<11;i++)
+        {
           System.out.println(i*n);
 
         }
