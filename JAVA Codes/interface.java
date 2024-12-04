@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
-interface Client {
+interface Client 
+{
     void input();
     void output();
 }
 
-class ABC implements Client {
+class ABC implements Client 
+{
     private String name;
     private String address;
     private double salary;
@@ -26,7 +28,8 @@ class ABC implements Client {
        sc.close();
     }
     
-    public void output() {
+    public void output() 
+    {
         System.out.printf("Name: %s%n", name);
         System.out.printf("Address: %s%n", address);
         System.out.printf("Salary: %.2f%n", salary);
