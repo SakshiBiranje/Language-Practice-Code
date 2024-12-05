@@ -1,5 +1,7 @@
-public class Recursion4{
-    public static int calcFactorial(int n){
+public class Recursion4
+{
+    public static int calcFactorial(int n)
+    {
         if(n==1 || n==0){
             return 1;
         }
