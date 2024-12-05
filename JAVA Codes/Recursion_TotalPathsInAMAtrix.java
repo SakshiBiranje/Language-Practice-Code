@@ -1,4 +1,5 @@
-public class Recursion_TotalPathsInAMAtrix {
+public class Recursion_TotalPathsInAMAtrix 
+{
     public static int countPaths(int i,int j, int n,int m){
         if(i==n || j==m){
             return 0;
