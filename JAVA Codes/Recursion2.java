@@ -10,6 +10,7 @@ public class Recursion2
         System.out.println(n);
         printNum(n+1);
     }
+    
     public static void main(String args[])
     {
        int n=1;
