@@ -1,4 +1,5 @@
-public class Recursion7 {
+public class Recursion7 
+{
     public static int calPower(int x,int n){
         if(n ==0){
             return 1;
