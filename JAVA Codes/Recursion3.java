@@ -1,4 +1,5 @@
-public class Recursion3{
+public class Recursion3
+{
     //to print sum of 1to 5
     public static void printSum(int i ,int n, int sum){
         if(i ==n){
