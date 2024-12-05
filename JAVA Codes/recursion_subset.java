@@ -1,14 +1,17 @@
 import java.util.*;
 
-public class recursion_subset {
-    public static void printSubset(ArrayList<Integer> subset){
+public class recursion_subset 
+{
+    public static void printSubset(ArrayList<Integer> subset)
+    {
         for(int i=0;i<subset.size();i++){
             System.out.print(subset.get(i)+" ");
         }
         System.out.println();
     }
 
-    public static void FindSubsets(int n , ArrayList<Integer>subset) {
+    public static void FindSubsets(int n , ArrayList<Integer>subset) 
+    {
         if(n== 0){
             printSubset(subset);
             return;
