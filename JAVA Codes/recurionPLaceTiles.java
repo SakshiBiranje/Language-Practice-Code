@@ -1,4 +1,5 @@
-public class recurionPLaceTiles {
+public class recurionPLaceTiles 
+{
  //no .of ways 
     public static int placeTiles(int n ,int m){
        if(n == m){
