@@ -10,7 +10,7 @@ System.out.print("Fibonacci Series: " + num1 + "," + num2);
 
 for (int i = 2; i < n; i++) 
 {
-int num3;
+  int num3 = num1;
 num1 = num2;
 num2 = num3;
 System.out.print(", " + num3);
