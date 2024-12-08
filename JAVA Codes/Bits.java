@@ -1,7 +1,9 @@
 import java.util.*;
 
-public class Bits{
-public static void main(String args[]){
+public class Bits
+{
+public static void main(String args[])
+{
 //Scanner sc = new Scanner(System.in);
 //int oper = sc.nextInt();
 
@@ -10,7 +12,8 @@ public static void main(String args[]){
     int bitMask=1<<pos;
 
     //Get bit
-    if((bitMask & n)==0){
+    if((bitMask & n)==0)
+    {
         System.out.println("Bit was zero");
     } else{
        System.out.println("Bit was non-zero");
