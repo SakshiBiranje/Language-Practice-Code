@@ -1,6 +1,8 @@
-public class ArithmeticoperatorOnString{
+public class ArithmeticoperatorOnString
+{
     //arithmetic operators on string
-    public static void main (String[] args){
+    public static void main (String[] args)
+    {
         String num1 = "13";
         String num2 = "25";
 
