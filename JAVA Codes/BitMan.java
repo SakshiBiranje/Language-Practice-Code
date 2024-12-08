@@ -11,7 +11,6 @@ public class BitMan
         System.out.print("Enter the postion : ");
         int pos = sc.nextInt();
         int bitMask = 1 << pos;
-
         if ((bitMask & no) == 0)
         {
             System.out.println("bit was zero");
