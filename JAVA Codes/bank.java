@@ -1,6 +1,8 @@
 import java.util.*;
-public class bank {
-        public static class Account {
+public class bank 
+{
+        public static class Account 
+        {
         public static double monthlyinterst(double IR, double P) {
             double Amount = P;
             Amount += ((P * IR) / 12) / 100;
@@ -20,7 +22,8 @@ public class bank {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the annual Interest rate : ");
         double rate = sc.nextDouble();
