@@ -11,10 +11,8 @@ public class twoDArrays
         int col = sc.nextInt();
         System.out.print("Matrix:");
         int[][]numbers = new int[rows][col];
-
         //input 
         //rows
-
         for(int i=0; i<rows ; i++)
         {
             //cols
