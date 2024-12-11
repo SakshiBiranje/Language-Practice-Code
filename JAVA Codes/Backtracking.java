@@ -7,7 +7,6 @@ public class Backtracking
             System.out.println(permutation);
             return;
         }
-    
         for(int i=0;i<str.length();i++)
         {
             char currChar = str.charAt(i);
