@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 int romanToInt(char *s)
 {
     int nums[26] = {0};
@@ -20,7 +19,8 @@ int romanToInt(char *s)
     return ans;
 }
 
-int main() {
+int main() 
+{
     char s[] = "MCMXCIV";
     printf("Roman to Integer: %d\n", romanToInt(s));
     return 0;
