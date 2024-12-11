@@ -5,7 +5,6 @@ public class ArithmeticoperatorOnString
     {
         String num1 = "13";
         String num2 = "25";
-
         double a1= Integer.parseInt(num1);
         double a2 = Integer.parseInt(num2);
         System.out.println("Addition : "+ (a1+a2));
