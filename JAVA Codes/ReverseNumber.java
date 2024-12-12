@@ -8,7 +8,6 @@ public class ReverseNumber
          reversed =reversed* 10+ num % 10; 
          num /= 10;
         } 
-        
         System.out.println(reversed); 
     }
 }
