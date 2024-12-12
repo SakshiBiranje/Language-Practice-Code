@@ -12,14 +12,16 @@ public class Remove_Element
         return k;
     }
     
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in); 
 
         System.out.println("Enter size of array: ");
         int n = sc.nextInt();
         int[] nums = new int[n];
         System.out.println("Enter array elements: ");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             nums[i] = sc.nextInt();
         }
         System.out.println("Enter element to remove: ");
@@ -30,7 +32,8 @@ public class Remove_Element
 
         System.out.println("New length of array: " + newLength);  
         System.out.println("Modified array: ");
-        for (int i = 0; i < newLength; i++) {
+        for (int i = 0; i < newLength; i++) 
+        {
             System.out.print(nums[i] + " ");  
         }
         sc.close(); 
