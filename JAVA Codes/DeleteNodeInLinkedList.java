@@ -9,7 +9,6 @@ class ListNode
         next = null;
     }
 }
-
 class DeleteNodeInLinkedList 
 {
 
