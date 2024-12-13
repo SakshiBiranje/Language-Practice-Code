@@ -12,10 +12,13 @@ public class HollowRectanglePattern
         int columns = scanner.nextInt();
 
         for (int i = 1; i <= rows; i++) {
-            for (int j = 1; j <= columns; j++) {
-                if (i == 1 || i == rows || j == 1 || j == columns) {
+            for (int j = 1; j <= columns; j++) 
+            {
+                if (i == 1 || i == rows || j == 1 || j == columns) 
+                {
                     System.out.print("* ");
-                } else {
+                } else 
+                {
                     System.out.print("  ");
                 }
             }
