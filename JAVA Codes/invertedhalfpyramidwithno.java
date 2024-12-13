@@ -2,8 +2,7 @@ import java.util.*;
 
 public class invertedhalfpyramidwithno 
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         int n=6;
         for(int i=n;i>=1;i--)
         {
