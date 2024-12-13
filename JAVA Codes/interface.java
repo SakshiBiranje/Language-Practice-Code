@@ -11,7 +11,6 @@ class ABC implements Client
     private String name;
     private String address;
     private double salary;
-
     public void input() 
     {
         Scanner sc = new Scanner(System.in);
