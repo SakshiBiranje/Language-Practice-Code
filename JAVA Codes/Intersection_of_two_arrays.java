@@ -14,7 +14,9 @@ public class Intersection_of_two_arrays
             counter.put(num, counter.getOrDefault(num, 0) + 1);
         }
         List<Integer> t = new ArrayList<>();
-        for (int num : nums2) {
+
+        for (int num : nums2) 
+        {
               if (counter.getOrDefault(num, 0) > 0) 
               {
                     t.add(num);
