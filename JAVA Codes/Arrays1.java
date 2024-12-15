@@ -14,7 +14,8 @@ public static void main(String args[])
     }
     System.out.println("Enter the number you want to search in the Array :");
     int x = sc.nextInt();
-    for(int i=0 ; i<size;i++) {
+    for(int i=0 ; i<size;i++) 
+    {
         if(numbers[i] == x){
           System.out.println("x found at index :"+i);
          }
