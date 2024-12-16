@@ -8,7 +8,6 @@ public class recursionDuplicates
     System.out.println(newString);
     return;
    }
-   
     char currChar = str.charAt(idx);
     if(map[currChar - 'a' ]){
         removeDuplicates(str, idx+1,newString);
