@@ -1,10 +1,7 @@
 import java.util.*;
 
-public class patterns 
-{
-    
-    public static void main(String args[]) 
-    {
+public class patterns {
+    public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
    int n=4;
    for(int i=1;i<=n;i++){
