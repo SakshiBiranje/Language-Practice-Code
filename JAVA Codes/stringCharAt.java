@@ -7,8 +7,7 @@ public class  stringCharAt
         String firstName = "Tony";
         String lastName = "Stark";
         String fulName = firstName +" "+lastName;
-       
-        //tony@Stark
+        //tony Stark
         System.out.println(fulName.length());
         //charAt
         int n =5 ;
