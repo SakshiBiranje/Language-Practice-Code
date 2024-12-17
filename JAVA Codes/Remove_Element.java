@@ -19,7 +19,7 @@ public class Remove_Element
         System.out.println("Enter size of array: ");
         int n = sc.nextInt();
         int[] nums = new int[n];
-        
+
         System.out.println("Enter array elements: ");
         for (int i = 0; i < n; i++) 
         {
@@ -33,6 +33,7 @@ public class Remove_Element
 
         System.out.println("New length of array: " + newLength);  
         System.out.println("Modified array: ");
+        
         for (int i = 0; i < newLength; i++) 
         {
             System.out.print(nums[i] + " ");  
