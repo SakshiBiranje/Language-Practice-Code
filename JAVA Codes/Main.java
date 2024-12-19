@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-class Remove_Element 
-{
+class Remove_Element {
     public int removeElement(int[] nums, int val) 
     {
         int k = 0;
