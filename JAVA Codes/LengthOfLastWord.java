@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-class LengthOfLastWord
-{
+class LengthOfLastWord {
     //method - lastword chi length print karnya sathi
     public int LastWordLength(String s){
         int i = s.length()-1;
