@@ -1,7 +1,6 @@
 import java.io.*;
 
-abstract class Helper 
-{
+abstract class Helper {
     abstract void check(String name);
 }
 //abstract class
