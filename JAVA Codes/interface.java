@@ -1,17 +1,15 @@
 import java.util.Scanner;
 
-interface Client 
-{
+interface Client {
     void input();
     void output();
 }
-class ABC implements Client 
-{
+class ABC implements Client {
     private String name;
     private String address;
     private double salary;
-    public void input() 
-    {
+    
+    public void input() {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter name: ");
