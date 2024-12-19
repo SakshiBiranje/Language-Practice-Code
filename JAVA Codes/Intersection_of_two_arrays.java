@@ -4,8 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Intersection_of_two_arrays 
-{
+public class Intersection_of_two_arrays {
     public int[] intersect(int[] nums1, int[] nums2) 
     {
         Map<Integer, Integer> counter = new HashMap<>();
