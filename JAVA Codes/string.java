@@ -4,6 +4,10 @@ public interface string
 {
  public static void main(String args[])
  {
+  /* strings are immutable i.e. we cannot change it once it is declared
+  All wrpapper classes i.e. Integer, Character , Boolean , Long , float, Byte , Short 
+  and Double are also immutable */
+  
     String name1 = "Sakshi";
     String name2 = "Sakshi";
     
