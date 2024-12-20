@@ -6,6 +6,7 @@ import java.util.*;
  
     StringBuilder sb = new StringBuilder("Sakshi");
      //reverse index
+     
     for(int i =0;i<sb.length()/2;i++)
     {
         int front = i;
