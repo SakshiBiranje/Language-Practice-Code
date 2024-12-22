@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-class Remove_Element {
+class Remove_Element 
+{
     public int removeElement(int[] nums, int val) 
     {
         int k = 0;
@@ -18,7 +19,7 @@ public class Main
     public static void main(String[] args) 
     {
         Scanner scanner = new Scanner(System.in);
-        
+
         System.out.print("Enter the number of elements in the array: ");
         int n = scanner.nextInt();
         int[] nums = new int[n];
