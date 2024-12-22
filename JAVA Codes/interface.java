@@ -4,6 +4,7 @@ interface Client {
     void input();
     void output();
 }
+
 class ABC implements Client 
 {
     private String name;
