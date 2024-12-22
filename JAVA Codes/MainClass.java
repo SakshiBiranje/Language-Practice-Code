@@ -10,7 +10,7 @@ public class MainClass extends Helper
     {
     MainClass obj = new MainClass();
     obj.check("Tony");
-    
+
     }
     
     @Override 
