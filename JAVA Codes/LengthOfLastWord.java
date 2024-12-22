@@ -13,7 +13,6 @@ class LengthOfLastWord {
         }
         return i-j;
     }
-    
     // method - lastword print karanya sathi
     public String Lastword(String s){
         s = s.trim();
