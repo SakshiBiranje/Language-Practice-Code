@@ -16,6 +16,7 @@ public class Intersection_of_two_arrays
         }
         List<Integer> t = new ArrayList<>();
 
+        
         for (int num : nums2) 
         {
               if (counter.getOrDefault(num, 0) > 0) 
