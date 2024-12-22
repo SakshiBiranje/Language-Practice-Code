@@ -1,7 +1,8 @@
 import java.util.*;
 public class loops2 
 {
-    public static void main(String args[]) {
+    public static void main(String args[]) 
+    {
         int n = 4;
         int m = 5;
         //outer loop
@@ -16,7 +17,7 @@ public class loops2
             System.out.println();
         }
     }
-    
+
        // System.out.println();
     }
 
