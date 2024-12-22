@@ -1,7 +1,8 @@
 import java.util.*;
 public class loops{
     
-    public static void main(String args[]) {
+    public static void main(String args[]) 
+    {
   //for loop
   //for(int i=0;i<4;i++){
   //System.out.println("Hello World");
@@ -46,8 +47,8 @@ public class loops{
           System.out.println(i*n);
 
         }
-          }
-        }
+    }
+  }
           
     
     
