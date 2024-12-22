@@ -12,7 +12,8 @@ class MethodOverloading{
 
     // all 3 methods have same name but pararmeters and its types is different 
     // so it will work for all possible parameter type inputs
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
 
         MethodOverloading obj = new MethodOverloading();
        // int result = obj.add(3,4,5);
