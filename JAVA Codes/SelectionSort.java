@@ -10,6 +10,7 @@ public class SelectionSort
         }
         System.out.println();
     }
+
     public static void main(String args[])
     {
         int arr[]={7,8,3,1,2};
@@ -21,7 +22,8 @@ public class SelectionSort
                 if(arr[smallest] > arr[j]){
                     smallest = j;
                 }
-            }        
+            }    
+                
         int temp = arr[smallest];
         arr[smallest]=arr[i];
         arr[i]=temp;
