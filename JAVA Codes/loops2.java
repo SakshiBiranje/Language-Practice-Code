@@ -6,7 +6,6 @@ public class loops2
         int n = 4;
         int m = 5;
         //outer loop
-        
         for(int i=1;i<=n;i++) 
         {
             //inner loops
