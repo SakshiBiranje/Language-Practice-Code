@@ -10,6 +10,7 @@ public class BitMan
         int no = sc.nextInt();
         System.out.print("Enter the postion : ");
         int pos = sc.nextInt();
+        
         int bitMask = 1 << pos;
         if ((bitMask & no) == 0)
         {
