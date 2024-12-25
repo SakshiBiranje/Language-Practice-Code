@@ -12,11 +12,13 @@ button{
     background-color: orange;
     color:white;
 }
+
 a{
     text-decoration: none;
     margin-left: 200px;
     color:white;
 }
+
 #logo{
     margin-left: 2px;
     font-size: 25px;
