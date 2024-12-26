@@ -20,6 +20,7 @@ class ArrayListExample{
     System.out.println(list);
     list.add(2,1);
     System.out.println(list);
+    
     //sort in ascending order
    list.sort(null);
    System.out.println(list);
