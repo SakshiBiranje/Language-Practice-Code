@@ -11,7 +11,18 @@ class ArrayListExample{
 
     System.out.println(list);
 
-   
+    //get element at particular index
+    int element1= list.get(1);
+    System.out.println(element1);
+    
+    //add at particular index
+    list.add(1,5);
+    System.out.println(list);
+    list.add(2,1);
+    System.out.println(list);
+    //sort in ascending order
+   list.sort(null);
+   System.out.println(list);
 
 
 }
