@@ -22,7 +22,7 @@ class three extends two{
 
 
 
-class MultiLevelInheritence{
+class InheritenceMultiLevel{
     public static void main(String[] args){
    // three obj = new three();
     three obj = new three();
