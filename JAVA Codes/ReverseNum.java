@@ -13,5 +13,6 @@ class ReverseNum{
             num = num/10;
         }
         System.out.print("reversed Number : "+ rev);
+       
     }
 }
