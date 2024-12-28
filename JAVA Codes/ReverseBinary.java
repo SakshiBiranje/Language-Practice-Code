@@ -6,9 +6,13 @@ public class ReverseBinary {
 
 
         System.out.print("Enter the number : ");
+        int T = scanner.nextInt();
+        while(T-- >0){
         int n= scanner.nextInt();
         int reversed = reverseBits(n);
         System.out.println(reversed);
+        }
+        scanner.close();
         }
 
   
