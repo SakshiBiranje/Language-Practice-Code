@@ -17,7 +17,8 @@ public class Recursion6
     
     //2^5=32
     
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         int x=2,n=5;
         int ans = calPower(x,n);
         System.out.println(ans);
