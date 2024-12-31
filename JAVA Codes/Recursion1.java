@@ -9,6 +9,7 @@ public class Recursion1 {
         System.out.println(n);
         printnum(n-1);
     }
+    
     public static void main(String[] args)
     {
         int n=5;
