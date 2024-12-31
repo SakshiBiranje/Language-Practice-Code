@@ -8,7 +8,8 @@ class Helper
         return a*b;
     }
 }
-class Polymorphism{
+class Polymorphism
+{
     public static void main(String[] args){
         System.out.println(Helper.multiply(2,3));
         System.out.println(Helper.multiply(5.2,3.7));
