@@ -12,7 +12,8 @@ public class Recursion4
     }
     
 //to claaculate fatorial of 5
-    public static void main(String args[]){
+    public static void main(String args[])
+    {
         int n=5 ;
         int ans = calcFactorial(n);
         System.out.println(ans);
