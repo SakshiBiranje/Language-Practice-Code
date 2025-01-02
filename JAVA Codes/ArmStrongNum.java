@@ -20,7 +20,7 @@ public class ArmStrongNum {
         
 	}
 	public static void main(String[] args) {
-		// Write your code here
+		
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
         boolean ans= armstrong(n);
