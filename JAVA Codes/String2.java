@@ -10,7 +10,6 @@ public class String2
         System.out.println(s);
         s= s.concat(" Stark");
         System.out.println(s);
-        // op will be Tony Stark
-        
+        // op will be Tony Stark 
     }
 }
