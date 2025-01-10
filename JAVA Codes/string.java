@@ -15,8 +15,7 @@ public interface string
     //2 s1==s2 = 0
     //3 s1<s2 = -ve value
 
-    if(name1.compareTo(name2) == 0)
-    {
+    if(name1.compareTo(name2) == 0) {
         System.out.println("Strings are equal");
     }
     else 
