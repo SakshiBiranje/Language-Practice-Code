@@ -15,6 +15,7 @@ class Stack2{
         stack.push(top);
 
     }
+    
     private static void reverseStack(Stack<Integer> stack){
         if(stack.isEmpty()){
             return;
