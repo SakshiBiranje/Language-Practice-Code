@@ -15,7 +15,6 @@ public class  stringCharAt
         {
             System.out.println(fulName.charAt(i));
         }
-
         //compare
         String sentence ="TonyStark";
         String name = sentence.substring(4);
