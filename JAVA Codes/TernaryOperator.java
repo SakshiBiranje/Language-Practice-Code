@@ -9,5 +9,6 @@ public class TernaryOperator
     System.out.println("Max of three : "+ result); 
     }
 }
+
 //bitwise operator : & , | , ^, ~
 // shift operator : a>>1, a <<1
