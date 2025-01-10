@@ -10,7 +10,8 @@ class Stack3{
        insertAtBottom(s,data);
        s.push(top);
     }
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
         Stack <Integer> s = new Stack<>();
         s.push(1);
         s.push(2);
