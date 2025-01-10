@@ -20,6 +20,7 @@ public class SUmOfAllDivisors {
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number : ");
+       
         int num = sc.nextInt();
         ArrayList<Integer> divisors = sumOfAllDivisors(num);
         int sum =0;
