@@ -10,7 +10,7 @@ print("This will print the array from begin to the 4th index : ",array1[:4])
 
 #Negative Slicing
 array4=np.array([1,2,3,4,5])
-print("This is a example of negative slicing : ",array4[-3:-1])
+print(" This is a example of negative slicing : ",array4[-3:-1])
 
 #step
 #Use the step value to determine the step of the slicing:
