@@ -3,7 +3,7 @@
 s1 ={1, 3.14,"radha"}
 print(s1)
 
-s1.add("Hello")  #add values
+s1.add("Hello")   #add values
 print(s1)
 s1.remove("Hello")  #remove element
 print(s1)
