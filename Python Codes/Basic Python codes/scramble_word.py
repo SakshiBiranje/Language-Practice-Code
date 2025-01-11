@@ -1,7 +1,6 @@
 import random
 
 def scramble_word(word):
-
     scrambled = ''.join(random.sample(word, len(word)))
     return scrambled
 def word_scramble_game():
