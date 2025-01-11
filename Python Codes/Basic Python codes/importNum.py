@@ -17,6 +17,7 @@ import numpy as np
 arr = np.array([[[12,23,34], [65,43,21]], [[87,45,62], [15,29,48]]])
 print(arr)
 
+
 #dimension of arrays
 import numpy as np
 a = np.array(42)
