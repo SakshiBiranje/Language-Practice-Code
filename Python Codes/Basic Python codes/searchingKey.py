@@ -8,5 +8,6 @@ while i < len(num3):
         print(f"Element found at index {i}")
         break
     i += 1
+    
 else:
     print("Element not found")
