@@ -1,4 +1,5 @@
 #NumpyArrayJoin
+
 import numpy as np
 # to join two arrays together
 arr1 = np.array([1, 2, 3])
