@@ -1,4 +1,5 @@
 import numpy as np
+
 # 1D Array 
 arr = np.array([1, 2, 3])
 
