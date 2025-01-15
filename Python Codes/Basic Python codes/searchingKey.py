@@ -3,6 +3,7 @@ key = int(input("Enter the element to find: "))
 # Convert input to integer
 
 i = 0
+
 while i < len(num3):
     if num3[i] == key:
         print(f"Element found at index {i}")
