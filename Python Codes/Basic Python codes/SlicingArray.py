@@ -9,6 +9,7 @@ print("This will automaticly print the array from index 4 to the last : ",array1
 print("This will print the array from begin to the 4th index : ",array1[:4])
 
 #Negative Slicing
+
 array4=np.array([1,2,3,4,5])
 print(" This is a example of negative slicing : ",array4[-3:-1])
 
