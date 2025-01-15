@@ -3,6 +3,7 @@ arr = np.array([1, 2, 3, 4, 5])
 print(arr)
 
 #1D array
+
 import numpy as np
 arr =np.array([21,1,5,7,94])
 print(arr)
