@@ -24,7 +24,6 @@ print(arr)
 arr = np.hstack((arr1, arr2))
 
 print(arr)
-
 #vstack()  to stack along columns
 arr = np.vstack((arr1, arr2))
 
