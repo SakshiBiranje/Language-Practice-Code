@@ -9,7 +9,6 @@ else :
     print("b is greater than a")
 
 c=30
-
 if(a>b) & (a>c):
     print("a is greatest")
 elif(b>a) & (b>c):
