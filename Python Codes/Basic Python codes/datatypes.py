@@ -6,6 +6,7 @@ print(student)
 a1=10
 print(a1)
 type(a1)
+
 b1=3.14
 print(b1)
 type(b1)
