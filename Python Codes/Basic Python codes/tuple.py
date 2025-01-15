@@ -15,6 +15,7 @@ print([1])
 
 print(l1.append(-87.999))
 print(type(l1))
+
 l1[0]=100
 print(l1)
 l1.pop()
