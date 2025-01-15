@@ -8,8 +8,10 @@ print(a|a)
 
 
 #tokens , keywords , string
+
 str1= "hello world!!!"
 print(str1)
+
 my_string = "My name is Sakshi"
 print(my_string[0])
 print(my_string[16])
