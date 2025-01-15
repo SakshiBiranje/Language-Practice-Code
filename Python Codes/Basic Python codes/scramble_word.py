@@ -8,6 +8,7 @@ def word_scramble_game():
     word_to_guess = random.choice(words)
     scrambled_word = scramble_word(word_to_guess)
     
+    
     print("Welcome to the Word Scramble Game!")
     print(f"Can you guess this word? {scrambled_word}")
     
