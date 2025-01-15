@@ -11,7 +11,6 @@ s1.update([10,20,"sakshi"])  #update
 print(s1)
 
 #functions in sets
-
 s1={"sakshi", 31.4,40,30,1}
 s2={1,2,3,4,30,"radha"}
 print(s1)
