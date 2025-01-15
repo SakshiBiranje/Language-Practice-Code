@@ -10,6 +10,7 @@ d1['guava'] = 40 #add element
 print(d1
       )
 #functions in dict 
+
 d2 ={'banana': 60,'berry':90}
 d1.update(d2)   # upade d1 by adding d2 to d1
 print(d1)
