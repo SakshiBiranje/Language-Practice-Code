@@ -8,6 +8,7 @@ public interface string
   All wrpapper classes i.e. Integer, Character , Boolean , Long , float, Byte , Short 
   and Double are also immutable */
   
+  
     String name1 = "Sakshi";
     String name2 = "Sakshi";
     
