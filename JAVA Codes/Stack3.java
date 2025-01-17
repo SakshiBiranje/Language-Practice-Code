@@ -1,5 +1,6 @@
 import java.util.*;
 //insert at bottom of stack
+
 class Stack3{
     private static void insertAtBottom(Stack<Integer> s, int data){
        if(s.isEmpty()){
