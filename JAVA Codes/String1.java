@@ -9,6 +9,7 @@ public class String1
          * Strings are immutable for security, performance, and thread safety reasons.
          * It prevents unwanted changes and helps optimize memory usage.
          */
+        
         String str = new String("Hi , there!!");
         System.out.println(str);
     }
