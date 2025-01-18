@@ -1,5 +1,6 @@
 import java.util.*;
-public class Recursion1 {
+public class Recursion1 
+{
     public static void printnum(int n)
     {
         if( n==0)
