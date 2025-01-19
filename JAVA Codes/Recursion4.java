@@ -10,8 +10,7 @@ public class Recursion4
         int fact_n= n*fact_num1;
         return fact_n;
     }
-    
-//to claaculate fatorial of 5
+   //to claaculate fatorial of 5
 
     public static void main(String args[])
     {
