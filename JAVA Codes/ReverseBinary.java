@@ -16,7 +16,8 @@ public class ReverseBinary {
         }
 
   
-    private static int reverseBits(int n) {
+    private static int reverseBits(int n) 
+    {
         int result = 0;
 
         // Iterate through all 32 bits
