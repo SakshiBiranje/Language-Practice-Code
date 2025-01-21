@@ -9,6 +9,7 @@ int main()
     {
         printf("\nPositive Number");
     }
+    
     else if(num < 0)
      {
         printf("\nNegative Number");
