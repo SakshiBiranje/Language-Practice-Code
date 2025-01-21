@@ -3,5 +3,27 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BinaryAdd",
+            "request": "launch",
+            "mainClass": "BinaryAdd",
+            "projectName": "Language-Practice-Code_64c3992f"
+        },
+        {
+            "type": "java",
+            "name": "String3",
+            "request": "launch",
+            "mainClass": "String3",
+            "projectName": "Language-Practice-Code_64c3992f"
+        },
+        {
+            "type": "java",
+            "name": "Pattern2",
+            "request": "launch",
+            "mainClass": "Pattern2",
+            "projectName": "Language-Practice-Code_64c3992f"
+        }
+    ]
 }
