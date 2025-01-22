@@ -4,8 +4,6 @@ public class Bits
 {
 public static void main(String args[])
 {
-//Scanner sc = new Scanner(System.in);
-//int oper = sc.nextInt();
 
     int n=5;
     int pos=1;
