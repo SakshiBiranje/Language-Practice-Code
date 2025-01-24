@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sort1",
+            "request": "launch",
+            "mainClass": "Sort1",
+            "projectName": "Language-Practice-Code_64c3992f"
+        },
+        {
+            "type": "java",
             "name": "BinaryAdd",
             "request": "launch",
             "mainClass": "BinaryAdd",
