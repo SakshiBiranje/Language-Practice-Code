@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FreqCount",
+            "request": "launch",
+            "mainClass": "FreqCount",
+            "projectName": "Language-Practice-Code_64c3992f"
+        },
+        {
+            "type": "java",
+            "name": "FrequencyCount",
+            "request": "launch",
+            "mainClass": "FrequencyCount",
+            "projectName": "Language-Practice-Code_64c3992f"
+        },
+        {
+            "type": "java",
             "name": "Sort1",
             "request": "launch",
             "mainClass": "Sort1",
