@@ -9,7 +9,7 @@ public class FibonacciSeries{
                 System.out.print(b+" ");
             
             int temp = b;
-            b = a + b ;
+            b = a + b;
             a = temp;
         }
     }
@@ -17,8 +17,7 @@ public class FibonacciSeries{
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number :");
-    
+        System.out.print("Enter the number :");    
         int n =sc.nextInt();
         Fibonacci(n);
     }
