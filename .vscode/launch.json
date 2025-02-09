@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "zeroone",
+            "request": "launch",
+            "mainClass": "zeroone",
+            "projectName": "Language-Practice-Code_64c3992f"
+        },
+        {
+            "type": "java",
             "name": "FreqCount",
             "request": "launch",
             "mainClass": "FreqCount",
