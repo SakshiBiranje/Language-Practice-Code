@@ -14,6 +14,7 @@ for x in fruits:
   if x == "banana":
     break
   
+  
 print("\n")
 # to print each element in a list and continue to the next iteration 
 fruits = ["apple", "banana", "cherry"]
