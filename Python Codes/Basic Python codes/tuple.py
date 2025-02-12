@@ -18,6 +18,7 @@ print(type(l1))
 
 l1[0]=100
 print(l1)
+
 l1.pop()
 print(l1)
 l1.reverse()
