@@ -9,10 +9,12 @@ type(a1)
 
 b1=3.14
 print(b1)
+
 type(b1)
 c1= "sakshi"
 print(c1)
 type(c1)
+
 d1= 4+2j
 print(d1)
 type(d1)
