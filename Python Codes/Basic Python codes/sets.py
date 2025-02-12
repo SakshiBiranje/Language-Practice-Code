@@ -14,6 +14,7 @@ print(s1)
 s1={"sakshi", 31.4,40,30,1}
 s2={1,2,3,4,30,"radha"}
 print(s1)
+
 #to make combination of two sets
 print(s1.union(s2))
 #to find common elements in two sets
