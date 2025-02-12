@@ -21,5 +21,6 @@ print(l1)
 
 l1.pop()
 print(l1)
+
 l1.reverse()
 print(l1)
