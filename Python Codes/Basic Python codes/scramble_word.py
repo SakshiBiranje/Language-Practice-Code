@@ -3,6 +3,7 @@ import random
 def scramble_word(word):
     scrambled = ''.join(random.sample(word, len(word)))
     return scrambled
+
 def word_scramble_game():
     words = ["python", "simple", "unique", "creative", "programming"]
     word_to_guess = random.choice(words)
