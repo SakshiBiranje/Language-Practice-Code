@@ -16,6 +16,7 @@ my_string = "My name is Sakshi"
 print(my_string[0])
 print(my_string[16])
 print(my_string)
+
 print(my_string.lower())
 print(my_string.upper())
 print(my_string.replace('Sakshi','Radha'))
