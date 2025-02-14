@@ -16,7 +16,7 @@ class Stack2{
 
     }
     
-    private static void reverseStack(Stack<Integer> stack){
+    private static void reverseStack(Stack<Integer> stack) {
         if(stack.isEmpty()){
             return;
              
