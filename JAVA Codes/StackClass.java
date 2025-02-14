@@ -23,6 +23,7 @@ public class StackClass{
             return ;
 
         }
+        
         newNode.next = head;
         head = newNode;
 
