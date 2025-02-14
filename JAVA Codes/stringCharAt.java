@@ -6,6 +6,7 @@ public class  stringCharAt
     {
         String firstName = "Tony";
         String lastName = "Stark";
+        
         String fulName = firstName +" "+lastName;
         //tony Stark
         System.out.println(fulName.length());
