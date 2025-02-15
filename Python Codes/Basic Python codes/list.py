@@ -13,6 +13,7 @@ b1=['apple', 'mango', 'kiwi','strawberry ']
 print(l1 + b1)
 print(b1*5 +a1)
 
+#expand
 l2=[1,2,3]
 l3=[4,5,6]
 l2.extend(l3)
