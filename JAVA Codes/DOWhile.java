@@ -8,6 +8,7 @@ public class DOWhile
             System.out.println("Hello Sakshi!!!");
             c++;
         }
+        
         while(c<6);
     }
 }
