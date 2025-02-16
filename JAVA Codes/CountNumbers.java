@@ -4,6 +4,7 @@ public class CountNumbers
     {
         int num=123456;
         int count= String.valueOf(num).length();
+        
         System.out.println(count);
     }
 }
