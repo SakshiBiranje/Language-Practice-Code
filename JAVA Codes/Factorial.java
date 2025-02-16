@@ -17,6 +17,5 @@ factorial *= i;
 
 System.out.println(factorial);
 
-
    }
 }
