@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "largestNum",
+            "request": "launch",
+            "mainClass": "largestNum",
+            "projectName": "Language-Practice-Code_64c3992f"
+        },
+        {
+            "type": "java",
+            "name": "SmallestNum",
+            "request": "launch",
+            "mainClass": "SmallestNum",
+            "projectName": "Language-Practice-Code_64c3992f"
+        },
+        {
+            "type": "java",
             "name": "zeroone",
             "request": "launch",
             "mainClass": "zeroone",
