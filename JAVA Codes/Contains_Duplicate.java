@@ -23,6 +23,7 @@ public static void main(String[] args)
         nums[i]=sc.nextInt();
     }
     Contains_Duplicate obj= new Contains_Duplicate();
+    
     if(obj.ContainsDuplicate(nums)){
         System.out.println("True"); //it contains duplicate value
     }
