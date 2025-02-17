@@ -14,7 +14,6 @@ for (int i = 1; i <= num; i++)
 factorial *= i;
 
 }
-
 System.out.println(factorial);
 
    }
