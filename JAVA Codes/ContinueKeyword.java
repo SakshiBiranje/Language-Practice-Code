@@ -8,6 +8,7 @@ class ContinueKeyword
             // Skip condition where i==3
             if (i == 3) 
                 continue;
+                
             // Exit the loop when i == 7
             if (i == 7) 
                 break; 
