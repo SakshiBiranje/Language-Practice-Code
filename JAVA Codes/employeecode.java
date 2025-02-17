@@ -2,6 +2,7 @@ import java.util.*;
 
 public class employeecode {
     public static class Employee {
+        
         String name;
         int age;
         double salary;
