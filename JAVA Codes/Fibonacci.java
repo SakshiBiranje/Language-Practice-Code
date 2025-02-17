@@ -1,5 +1,4 @@
 //Fibonacci Series
-
 public class fibonacci 
 {
   public static void main(String[] args) 
@@ -12,7 +11,7 @@ public class fibonacci
             int num3 = num1;
             num1 = num2;
             num2 = num3;
-            
+
         System.out.print(", " + num3);
       }
     }
