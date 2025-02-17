@@ -1,7 +1,6 @@
 import java.util.*;
 
 //  Encapsulation
-
 // Person Class
 class Person {
     // Encapsulating the name and age
