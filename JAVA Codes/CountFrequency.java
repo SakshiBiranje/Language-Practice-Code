@@ -2,7 +2,7 @@ import java.util.*;
  
 public class CountFrequency {
  
-public static void main(String args[]){  
+public static void main(String args[]) {  
    int arr[] = {10,5,10,15,10,5};
      int n = arr.length;
      Frequency(arr, n);
