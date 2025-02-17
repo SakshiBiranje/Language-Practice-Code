@@ -8,7 +8,6 @@ public class conditions
 
         //adult age checker
         int age = sc.nextInt();
-
         if(age > 18) {
             System.out.println("Adult");
         } else {
