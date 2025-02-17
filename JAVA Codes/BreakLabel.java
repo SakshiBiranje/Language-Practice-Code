@@ -22,6 +22,7 @@ public class BreakLabel {
         }
     }
 }
+
 /* S Notes : 
 In Loops: The break statement is used to exit a loop early.
 In Switch Cases: It exits the switch block after executing a case.
