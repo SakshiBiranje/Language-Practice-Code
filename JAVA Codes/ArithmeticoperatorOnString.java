@@ -1,5 +1,4 @@
-public class ArithmeticoperatorOnString
-{
+public class ArithmeticoperatorOnString {
     //arithmetic operators on string
     public static void main (String[] args)
     {
