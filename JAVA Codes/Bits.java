@@ -13,7 +13,8 @@ public static void main(String args[])
     if((bitMask & n)==0)
     {
         System.out.println("Bit was zero");
-    } else{
+    } else
+    {
        System.out.println("Bit was non-zero");
     }
 
