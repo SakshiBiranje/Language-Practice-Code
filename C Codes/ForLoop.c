@@ -13,6 +13,5 @@ int main()
       printf(" Inner: %d\n", j);  
     }
   }
-  
   return 0;
 }
