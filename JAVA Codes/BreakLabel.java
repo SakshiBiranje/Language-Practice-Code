@@ -20,7 +20,6 @@ public class BreakLabel {
             }
             System.out.println("After second block.");
         }
- 
     }
 }
 /* S Notes : 
