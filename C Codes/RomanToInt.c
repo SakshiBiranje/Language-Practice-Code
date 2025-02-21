@@ -16,6 +16,7 @@ int romanToInt(char *s)
         int sign = nums[s[i] - 'A'] < nums[s[i + 1] - 'A'] ? -1 : 1;
         ans += sign * nums[s[i] - 'A'];
     }
+    
     return ans;
 }
 
