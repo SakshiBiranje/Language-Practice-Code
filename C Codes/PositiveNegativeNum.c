@@ -14,8 +14,7 @@ int main()
      {
         printf("\nNegative Number");
     }
-    else
-    {
+    else {
         printf("Invalid option");
     }
 }
