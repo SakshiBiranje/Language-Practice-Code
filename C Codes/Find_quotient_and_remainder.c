@@ -10,5 +10,6 @@ int main()
     rem=a%b;
     printf("quotient : %d \n",quo);
     printf("remainder : %d",rem);
+    
     return 0;
 }
