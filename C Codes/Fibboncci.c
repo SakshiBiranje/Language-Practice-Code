@@ -19,7 +19,8 @@ void fibonacci(int n)
     printf("\n");
 }
 
-int main() {
+int main()
+ {
     int n;
     printf("Enter the value of N: ");
     scanf("%d", &n);
