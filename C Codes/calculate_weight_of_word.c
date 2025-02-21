@@ -12,6 +12,7 @@ int calculate_weight(const char *str)
     return total_weight;
 }
 
+
 int main() 
 {
     char input_string[100];
