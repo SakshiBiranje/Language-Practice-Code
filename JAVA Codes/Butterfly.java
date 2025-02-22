@@ -4,6 +4,7 @@ public class Butterfly
 {
     public static void main(String args[]) {
         int n =5;
+        
         //upper half
         for(int i=1;i<=n;i++){
             //1st part
