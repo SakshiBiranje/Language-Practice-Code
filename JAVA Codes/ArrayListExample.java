@@ -25,6 +25,5 @@ class ArrayListExample{
    list.sort(null);
    System.out.println(list);
 
-
 }
 }
