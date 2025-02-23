@@ -34,6 +34,7 @@ public class bank
         System.out.println("Amount after adding Yearly interest : ");
         System.out.println("Do you want to modefied interest Rate : ");
         String s = sc.next();
+        
         if (s.equalsIgnoreCase("yes")) {
             System.out.print("Enter the interest rate : ");
             double newRate = sc.nextDouble();
