@@ -4,6 +4,7 @@ import java.util.List;
 public class ArrayList2 {
     //Q2) Write a Java program to create a new array list, add some colors (string) and print out the collection as sorted list.
     public static void main(String[] args) {
+        
         List<String> list = new ArrayList<>();
         list.add("Orange");
         list.add("White");
