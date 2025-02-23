@@ -4,6 +4,6 @@ class BinaryAdd{
         int b=2;  //10
                 //    1101
                 
-        System.out.println(Integer.toBinaryString(a)+ Integer.toBinaryString(b));
+        System.out.println(Integer.toBinaryString(a));  // 111  + Integer.toBinaryString(b)
     }
 }
