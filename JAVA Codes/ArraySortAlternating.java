@@ -46,6 +46,7 @@ public class ArraySortAlternating {
         if(i < odd.size()){
             arr[k++]= odd.get(i++);
         }
+        
         System.out.println("Array final : ");
         for(int num :arr){
             System.out.println(num + " ");
