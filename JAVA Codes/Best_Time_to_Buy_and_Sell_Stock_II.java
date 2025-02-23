@@ -1,8 +1,7 @@
 import java.util.Scanner;
 public class Best_Time_to_Buy_and_Sell_Stock_II 
 {
-    public int maxProfit(int[] prices) 
-    {
+    public int maxProfit(int[] prices)  {
         int ans = 0;
         for (int i = 1; i < prices.length; ++i) 
         {
