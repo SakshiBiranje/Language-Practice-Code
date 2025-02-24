@@ -9,9 +9,9 @@ public class Pattern2 {
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
                 if((i+j) %2 ==0)
-    {
-        System.out.print(a +" ");
-    }
+                {
+                  System.out.print(a +" ");
+                }
         System.out.print(b+" ");
         a++;
         b++;
