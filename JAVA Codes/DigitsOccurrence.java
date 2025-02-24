@@ -14,8 +14,7 @@ public class DigitsOccurrence {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
-        
+  
         // Input the three numbers to check occurrences
         System.out.println("Enter three numbers to check their occurrences:");
         int a = sc.nextInt();
