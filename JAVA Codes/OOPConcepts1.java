@@ -17,7 +17,7 @@ import java.util.Scanner;
         System.out.println("Name : "+name);
 
     }
-    public static void main(String[] args){
+    public static void main(String[] args) {
         OOPConcepts1 obj = new OOPConcepts1();
         obj.id =1;
         obj.name= "Sakshi";
