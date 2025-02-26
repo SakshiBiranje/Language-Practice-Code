@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class output
 {
     public static void main(String[] arg)
