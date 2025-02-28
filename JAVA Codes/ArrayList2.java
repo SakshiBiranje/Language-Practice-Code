@@ -6,6 +6,7 @@ public class ArrayList2 {
     public static void main(String[] args) {
         
         List<String> list = new ArrayList<>();
+        
         list.add("Orange");
         list.add("White");
         list.add("Red");
