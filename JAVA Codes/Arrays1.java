@@ -12,6 +12,7 @@ public static void main(String args[])
     for(int i=0 ; i<size;i++) {
         numbers[i]=sc.nextInt();
     }
+    
     System.out.println("Enter the number you want to search in the Array :");
     int x = sc.nextInt();
     for(int i=0 ; i<size;i++) {
