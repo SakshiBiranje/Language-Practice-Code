@@ -17,6 +17,7 @@ public class Arrays2D {
 
             }
         }
+        
         //o/p
         for(int i=0 ;i<rows ;i++){
             for(int j =0;j<col;j++){
