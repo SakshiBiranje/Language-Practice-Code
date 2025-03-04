@@ -23,7 +23,6 @@ public class conditions
             System.out.println("Odd");
         }
  
-
         //greater num 
         int a = sc.nextInt();
         int b = sc.nextInt();
