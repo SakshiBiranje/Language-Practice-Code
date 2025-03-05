@@ -16,8 +16,8 @@ class GCD{
             }
         }
         else{
-            for(int i=0; i<=a;i++){
-           
+        for(int i=0; i<=a;i++)
+        {
            b=b%a;
            if(b!=0){
             ans =b;
