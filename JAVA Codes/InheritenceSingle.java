@@ -2,7 +2,8 @@
 class Employee{
     String comapany = "Persistent";
 }
-class emp1 extends Employee{
+class emp1 extends Employee
+{
     int id = 1122;
     int salary = 75000;
 }
