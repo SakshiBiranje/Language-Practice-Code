@@ -3,13 +3,15 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class FrequencyCount {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+     {
         int[] arr={ 10,15,20,10,5,20,10,15,10};
         int n = arr.length;
         CalcFreq( arr,n);
       
     }
-    static void CalcFreq(int[] arr, int n){
+    static void CalcFreq(int[] arr, int n)
+    {
             HashMap<Integer, Integer> map = new HashMap<>();
             for(int i=0;i<n;i++){
                 if(map.containsKey(arr[i])){
@@ -24,7 +26,8 @@ public class FrequencyCount {
         int maxFreq = 0, minFreq = n;
         int maxEle = 0, minEle = 0;
        
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+        for (Map.Entry<Integer, Integer> entry : map.entrySet())
+         {
             int count = entry.getValue();
             int element = entry.getKey();
 
