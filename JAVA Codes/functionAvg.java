@@ -10,7 +10,8 @@ public class functionAvg{
         System.out.print("enter a : ");
         int a = sc.nextInt();
         System.out.print("enter b : ");
-        int b = sc.nextInt(); 
+        int b = sc.nextInt();
+         
         System.out.print("enter c : ");
         int c = sc.nextInt();
         
